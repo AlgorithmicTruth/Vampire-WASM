@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jpm/vampire/build_wasm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

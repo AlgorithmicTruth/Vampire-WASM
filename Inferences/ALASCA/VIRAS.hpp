@@ -1,0 +1,52 @@
+/*
+ * This file is part of the source code of the software program
+ * Vampire. It is protected by applicable
+ * copyright laws.
+ *
+ * This source code is distributed under the licence found here
+ * https://vprover.github.io/license.html
+ * and in the source directory
+ */
+/**
+ * @file VariableElimination.hpp
+ * Defines class VariableElimination
+ *
+ */
+
+#ifndef __Inferences_ALASCA_VIRAS__
+#define __Inferences_ALASCA_VIRAS__
+
+#include "Forwards.hpp"
+
+#include "Inferences/InferenceEngine.hpp"
+#include "Kernel/ALASCA.hpp"
+
+namespace Inferences {
+namespace ALASCA {
+
+using namespace Kernel;
+using namespace Indexing;
+using namespace Saturation;
+
+class VirasQuantifierElimination
+: public SimplifyingGeneratingInference
+{
+public:
+
+  VirasQuantifierElimination(VirasQuantifierElimination&&) = default;
+  explicit VirasQuantifierElimination(SaturationAlgorithm& salg);
+
+  ClauseGenerationResult generateSimplify(Clause* premise) final;
+
+private:
+  Option<ClauseGenerationResult> generateSimplify(IntTraits n, Clause* premise);
+  template<class NumTraits>
+  Option<ClauseGenerationResult> generateSimplify(NumTraits n, Clause* premise);
+
+  const AlascaState& _shared;
+};
+
+} // namespace ALASCA 
+} // namespace Inferences 
+
+#endif /*__Inferences_ALASCA_VIRAS__*/

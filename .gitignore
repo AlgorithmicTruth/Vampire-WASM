@@ -1,0 +1,8 @@
+# Web apps (deployed separately, not published)
+webapps/
+
+# Build artifacts
+*.o
+*.d
+Debug/
+z3/

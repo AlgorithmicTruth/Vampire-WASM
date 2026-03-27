@@ -1,0 +1,590 @@
+/*
+ * This file is part of the source code of the software program
+ * Vampire. It is protected by applicable
+ * copyright laws.
+ *
+ * This source code is distributed under the licence found here
+ * https://vprover.github.io/license.html
+ * and in the source directory
+ */
+/**
+ * @file Rectify.cpp
+ * Implements (static) class Rectify for the rectification inference rule.
+ * @since 21/12/2003 Manchester
+ * @since 23/01/2004 Manchester, changed to use non-static objects
+ */
+
+#include "Lib/Metaiterators.hpp"
+#include "Lib/Recycled.hpp"
+#include "Lib/ScopedLet.hpp"
+
+#include "Kernel/Formula.hpp"
+#include "Kernel/FormulaUnit.hpp"
+#include "Kernel/Inference.hpp"
+#include "Kernel/SortHelper.hpp"
+#include "Kernel/Term.hpp"
+#include "Kernel/TermIterators.hpp"
+#include "Kernel/Unit.hpp"
+
+#include "Rectify.hpp"
+
+using namespace std;
+using namespace Shell;
+
+bool Rectify::Renaming::tryGetBoundAndMarkUsed(unsigned var,unsigned& boundTo) const
+{
+  if ((unsigned)var >= _capacity) {
+    return false;
+  }
+  VarUsageTrackingList* vs = _array[var];
+  if (VarUsageTrackingList::isEmpty(vs)) {
+    return false;
+  }
+  boundTo = vs->head().first;
+  vs->headPtr()->second = true;
+  return true;
+} // Rectify::bound
+
+Rectify::VarWithUsageInfo Rectify::Renaming::getBoundAndUsage(unsigned var) const
+{
+  ASS_L((unsigned)var,_capacity);
+
+  VarUsageTrackingList* vs = _array[var];
+  ASS(VarUsageTrackingList::isNonEmpty(vs));
+  return vs->head();
+}
+
+/**
+ * Rectify the formula from this unit. If the input type of this unit
+ * contains free variables, then ask Signature::sig to create an answer
+ * atom.
+ *
+ * @since 23/01/2004 Manchester, changed to use non-static objects
+ * @since 06/06/2007 Manchester, changed to use new datastructures
+ */
+FormulaUnit* Rectify::rectify (FormulaUnit* unit0, bool removeUnusedVars)
+{
+  ASS(!unit0->isClause());
+
+  FormulaUnit* unit = unit0;
+
+  Formula* f = unit->formula();
+  Rectify rect;
+  rect._removeUnusedVars = removeUnusedVars;
+  Formula* g = rect.rectify(f);
+
+  VList* vars = rect._free;
+
+  if (f != g) {
+    unit = new FormulaUnit(g,FormulaClauseTransformation(InferenceRule::RECTIFY,unit));
+  }
+
+  // note that this only kicks in when rectifying formulas with free variables
+  if (VList::isNonEmpty(vars)) {
+    DHMap<unsigned, TermList> varSorts;
+    SortHelper::collectVariableSorts(g, varSorts);
+    VSList::FIFO vsfifo;
+    VList::Iterator vit(vars);
+    while (vit.hasNext()) {
+      unsigned v = vit.next();
+      vsfifo.pushBack({v, varSorts.get(v)});
+    }
+    unit = new FormulaUnit(new QuantifiedFormula(FORALL, vsfifo.list(), g),FormulaClauseTransformation(InferenceRule::CLOSURE,unit));
+  }
+  return unit;
+} // Rectify::rectify (Unit& unit)
+
+/**
+ * Rectify formulas in @c units
+ */
+void Rectify::rectify(UnitList*& units)
+{
+  UnitList::DelIterator us(units);
+  while (us.hasNext()) {
+    Unit* u = us.next();
+    if(u->isClause()) {
+      continue;
+    }
+    FormulaUnit* fu = static_cast<FormulaUnit*>(u);
+    FormulaUnit* v = rectify(fu);
+    if (v != fu) {
+	us.replace(v);
+    }
+  }
+}
+
+/**
+ * Destroy all renaming lists.
+ * @since 07/06/2007 Manchester
+ */
+Rectify::Renaming::~Renaming ()
+{
+  for (int i = _capacity-1;i >= 0;i--) {
+    VarUsageTrackingList::destroy(_array[i]);
+    _array[i] = 0;
+  }
+} // Renaming::~Renaming
+
+
+
+/**
+ * Rectify a special term
+ */
+Term* Rectify::rectifySpecialTerm(Term* t)
+{
+  Term::SpecialTermData* sd = t->getSpecialData();
+  switch(t->specialFunctor()) {
+  case SpecialFunctor::ITE:
+  {
+    ASS_EQ(t->arity(),2);
+    Formula* c = rectify(sd->getITECondition());
+    TermList th = rectify(*t->nthArgument(0));
+    TermList el = rectify(*t->nthArgument(1));
+    TermList sort = rectify(sd->getSort());
+    if(c==sd->getITECondition() && th==*t->nthArgument(0) && el==*t->nthArgument(1) && sort==sd->getSort()) {
+	return t;
+    }
+    return Term::createITE(c, th, el, sort);
+  }
+  case SpecialFunctor::LET:
+  {
+    ASS_EQ(t->arity(),1);
+
+    Formula* binding = rectify(sd->getLetBinding());
+    TermList body = rectify(*t->nthArgument(0));
+    TermList sort = rectify(sd->getSort());
+    if (binding == sd->getLetBinding() && body == *t->nthArgument(0) && sort == sd->getSort()) {
+      return t;
+    }
+    return Term::createLet(binding, body, sort);
+  }
+  case SpecialFunctor::FORMULA:
+  {
+    ASS_EQ(t->arity(),0);
+    Formula* orig = rectify(sd->getFormula());
+    if(orig==sd->getFormula()) {
+      return t;
+    }
+    return Term::createFormula(orig);
+  }
+  case SpecialFunctor::LAMBDA:
+  {
+    ASS_EQ(t->arity(),0);
+#if VDEBUG
+    { // removing duplicates from LambdaVars would change its type, so better assert it never happens
+      DHSet<unsigned> seenVars;
+      VSList::Iterator dbgIt(sd->getLambdaVars());
+      while (dbgIt.hasNext()) {
+        ASS(seenVars.insert(dbgIt.next().first));
+      }
+    }
+#endif
+    bindVars(sd->getLambdaVars());
+    bool modified = false;
+    TermList lambdaTerm = rectify(sd->getLambdaExp());
+    TermList lambdaTermS = rectify(sd->getLambdaExpSort());
+    if(lambdaTerm != sd->getLambdaExp() || lambdaTermS != sd->getLambdaExpSort())
+    { modified = true; }
+    /**
+     * We don't want to remove unused variables from the variable list,
+     * ^[X].exp is not equivalent to exp.
+     */
+    VSList* vs;
+    {
+      ScopedLet<bool> ruv(_removeUnusedVars,false); // set _removeUnusedVars to false, temporarily
+      vs = rectifyBoundVars(sd->getLambdaVars());
+    }
+    unbindVars(sd->getLambdaVars());
+    if (vs == sd->getLambdaVars() && !modified) {
+      return t;
+    }
+    return Term::createLambda(lambdaTerm, vs, lambdaTermS);
+  }
+  case SpecialFunctor::MATCH: {
+    DArray<TermList> terms(t->arity());
+    bool unchanged = true;
+    for (unsigned i = 0; i < t->arity(); i++) {
+      terms[i] = rectify(*t->nthArgument(i));
+      unchanged = unchanged && (terms[i] == *t->nthArgument(i));
+    }
+    auto sort = rectify(sd->getSort());
+    auto matchedSort = rectify(sd->getMatchedSort());
+
+    if (unchanged && sort == sd->getSort() && matchedSort == sd->getMatchedSort()) {
+      return t;
+    }
+    return Term::createMatch(sort, matchedSort, t->arity(), terms.begin());
+  }
+  }
+  ASSERTION_VIOLATION;
+}
+
+/**
+ * Rectify a compound term.
+ * @since 01/11/2005 Bellevue
+ * @since 04/06/2007 Frankfurt Airport, changed to new datastructures
+ */
+Term* Rectify::rectify (Term* t)
+{
+  if (t->shared() && t->ground()) {
+    return t;
+  }
+
+  // cannot "recreate" super below, so let's special-case it
+  if (t->isSuper()) {
+    return t;
+  }
+
+  if(t->isSpecial()) {
+    return rectifySpecialTerm(t);
+  }
+
+  Recycled<Stack<TermList>> args;
+  for (auto a : anyArgIter(t)) {
+    args->push(rectify(a));
+  }
+  if (t->isSort()) {
+    return AtomicSort::create(static_cast<AtomicSort*>(t), args->begin());
+  } else if (t->isLiteral()) {
+    return Literal::create(static_cast<Literal*>(t), args->begin());
+  } else {
+    return Term::create(t, args->begin());
+  }
+} // Rectify::rectify (Term*)
+
+Literal* Rectify::rectifyShared(Literal* lit)
+{
+  ASS(lit->shared());
+
+  return SubstHelper::apply(lit, *this);
+}
+
+/**
+ * Rectify a literal.
+ * @since 24/03/2008 Torrevieja
+ */
+Literal* Rectify::rectify (Literal* l)
+{
+  if (l->shared()) {
+    if(l->ground()) {
+      return l;
+    }
+  }
+
+
+  if (l->isTwoVarEquality()) {
+    constexpr unsigned arity = 3;
+    TermList args[arity];
+    bool changed = Rectify::rectify(
+        /* from */ [&](auto i) { return i == 0 ? SortHelper::getEqualityArgumentSort(l)
+                                               : *l->nthArgument(i - 1); },
+        /* to */ [&](auto i) -> TermList& { return args[i]; },
+        /* cnt */ arity);
+    return changed ? Literal::createEquality(l->polarity(), args[1], args[2], args[0]) : l;
+  } else {
+    Recycled<DArray<TermList>> args;
+    args->ensure(l->arity());
+    bool changed = Rectify::rectify(
+        /* from */ [&](auto i) { return *l->nthArgument(i); },
+        /* to */ [&](auto i) -> TermList& { return (*args)[i]; },
+        /* cnt */ l->arity());
+    return !changed ? l : Literal::create(l->functor(), l->arity(), l->polarity(), args->begin());
+  }
+} // Rectify::rectify (Literal*)
+
+/** 
+ * Rectifies a list of `TermList`s. Both From and To are meant to be closures that can be called with an index and return a TermList.
+ * Rectification procededs as follows:
+ * ```
+ * to(0) = rectify from(0)
+ * to(1) = rectify from(1)
+ * ...
+ * to(cnt - 1) = rectify from(cnt - 1)
+ * ```
+ * This generalization is needed for properly rectfiying equalities, which don't have the equality sort stored as a usual term argument.
+ * The "default use" of this function would be
+ * ```
+ * Literal* input = ...;
+ * bool changed = Rectify::rectify(
+ *      [&](auto i) { return *input->nthArgument(i); },
+ *      [&](auto i) -> TermList& { return (*output)[i]; },
+ *      input->arity());
+ * ```
+ * Returns true if the list has changed.
+ */
+template<class From, class To>
+bool Rectify::rectify(From from, To to, unsigned cnt)
+{
+  bool changed = false;
+  for (auto i : range(0, cnt)) {
+    if (from(i).isVar()) {
+      int v = from(i).var();
+      int newV = rectifyVar(v);
+      to(i) = TermList::var(newV);
+      if (v != newV) { // rename variable to itself
+        changed = true;
+      }
+    }
+    else { // from is not a variable
+      Term* f = from(i).term();
+      Term* t = rectify(f);
+      to(i) = TermList(t);
+      if (f != t) {
+        changed = true;
+      }
+    }
+  }
+  return changed;
+} // Rectify::rectify (TermList*,...)
+
+/**
+ * Rectify variable @b v and return the result
+ */
+unsigned Rectify::rectifyVar(unsigned v)
+{
+  unsigned newV;
+  if (! _renaming.tryGetBoundAndMarkUsed(v,newV)) {
+    newV = _renaming.bind(v);
+    VList::push(newV,_free);
+  }
+  return newV;
+}
+
+
+/**
+ * Rectify term @b t
+ */
+TermList Rectify::rectify(TermList t)
+{
+  if(t.isTerm()) {
+    return TermList(rectify(t.term()));
+  }
+  ASS(t.isOrdinaryVar());
+  return TermList(rectifyVar(t.var()), false);
+}
+
+/**
+ * Rectify a formula.
+ *
+ * @param f the formula
+ *
+ * @since 27/06/2002 Manchester
+ * @since 30/08/2002 Torrevieja, changed
+ * @since 16/01/2004 Manchester, changed to use bound variables
+ * @since 23/01/2004 Manchester, changed to use non-static objects
+ * @since 11/12/2004 Manchester, true and false added
+ * @since 04/07/2007 Frankfurt Airport, changed to new data structures
+ */
+Formula* Rectify::rectify (Formula* f)
+{
+  switch (f->connective()) {
+  case LITERAL: 
+  {
+    Literal* lit = rectify(f->literal());
+    return lit == f->literal() ? f : new AtomicFormula(lit);
+  }
+
+  case AND: 
+  case OR: 
+  {
+    FormulaList* newArgs = rectify(f->args());
+    if (newArgs == f->args()) {
+      return f;
+    }
+    return new JunctionFormula(f->connective(), newArgs);
+  }
+
+  case IMP: 
+  case IFF: 
+  case XOR:
+  {
+    Formula* l = rectify(f->left());
+    Formula* r = rectify(f->right());
+    if (l == f->left() && r == f->right()) {
+      return f;
+    }
+    return new BinaryFormula(f->connective(), l, r);
+  }
+
+  case NOT:
+  {
+    Formula* arg = rectify(f->uarg());
+    if (f->uarg() == arg) {
+      return f;
+    }
+    return new NegatedFormula(arg);
+  }
+
+  case FORALL:
+  case EXISTS:
+  {
+    bindVars(f->vars());
+    Formula* arg = rectify(f->qarg());
+    VSList* vs = rectifyBoundVars(f->vars());
+    unbindVars(f->vars());
+    if (vs == f->vars() && arg == f->qarg()) {
+      return f;
+    }
+    if(VSList::isEmpty(vs)) {
+      return arg;
+    }
+    return new QuantifiedFormula(f->connective(),vs,arg);
+  }
+
+  case TRUE:
+  case FALSE:
+    return f;
+
+  case BOOL_TERM:
+     return new BoolTermFormula(rectify(f->getBooleanTerm()));
+
+  case NAME:
+  case NOCONN:
+    ASSERTION_VIOLATION;
+  }
+
+  ASSERTION_VIOLATION;
+} // Rectify::rectify (Formula*)
+
+/**
+ * Undo the last binding for variable var.
+ * @since 07/06/2007 Manchester
+ */
+void Rectify::Renaming::undoBinding (unsigned var)
+{
+  ASS(var < _capacity);
+
+  VarUsageTrackingList::pop(_array[var]);
+} // Rectify::Renaming::undoBinding
+
+/**
+ * Bind var to a new variable and return the new variable.
+ * @since 07/06/2007 Manchester
+ */
+unsigned Rectify::Renaming::bind (unsigned var)
+{
+  unsigned result = _nextVar++;
+
+  VarUsageTrackingList::push(make_pair(result,false), get(var));
+
+  return result;
+} // Rectify::Renaming::bind
+
+
+/**
+ * Add fresh bindings to a list of variables with sorts
+ */
+void Rectify::bindVars(VSList* vs)
+{
+  VSList::Iterator vit(vs);
+  while(vit.hasNext()) {
+    _renaming.bind(vit.next().first);
+  }
+}
+
+/**
+ * Undo bindings to variables of a list with sorts
+ */
+void Rectify::unbindVars(VSList* vs)
+{
+  VSList::Iterator vit(vs);
+  while(vit.hasNext()) {
+    _renaming.undoBinding(vit.next().first);
+  }
+}
+
+/**
+ * Rectify a list of variables with sorts.
+ * Sorts travel along with variables; sorts themselves are rectified
+ * (they may contain type variables in polymorphic settings).
+ */
+VSList* Rectify::rectifyBoundVars(VSList* vs)
+{
+  if (VSList::isEmpty(vs)) {
+    return vs;
+  }
+
+  Stack<VSList*> args;
+  while (VSList::isNonEmpty(vs)) {
+    args.push(vs);
+    vs = vs->tail();
+  }
+
+  VSList* res = VSList::empty();
+
+  DHSet<int> seen;
+  while (args.isNonEmpty()) {
+    vs = args.pop();
+
+    VSList* vtail = vs->tail();
+    VSList* ws = res;
+
+    auto [v, sort] = vs->head();
+
+    // each variable mentioned only once per quantifier!
+    if (!seen.insert(v)) {
+      continue;
+    }
+
+    VarWithUsageInfo wWithUsg = _renaming.getBoundAndUsage(v);
+    if (wWithUsg.second || !_removeUnusedVars) {
+      int w = wWithUsg.first;
+      TermList rectifiedSort = rectify(sort);
+
+      if ((int)v == w && rectifiedSort == sort && vtail == ws) {
+        res = vs;
+      } else {
+        res = VSList::cons({(unsigned)w, rectifiedSort}, ws);
+      }
+    }
+  }
+
+  return res;
+}
+
+
+/**
+ * Rectify a list of formulas.
+ * @since 08/06/2007 Manchester
+ */
+FormulaList* Rectify::rectify (FormulaList* fs)
+{
+  Recycled<Stack<FormulaList*>> els;
+
+  FormulaList* el = fs;
+  while(el) {
+    els->push(el);
+    el = el->tail();
+  }
+
+  FormulaList* res = 0;
+
+  bool modified = false;
+  while(els->isNonEmpty()) {
+    FormulaList* el = els->pop();
+    Formula* f = el->head();
+    Formula* g = rectify(f);
+    if(!modified && f!=g) {
+      modified = true;
+    }
+    if(modified) {
+      FormulaList::push(g, res);
+    }
+    else {
+      res = el;
+    }
+  }
+
+  return res;
+} // Rectify::rectify(FormulaList*)
+
+/**
+ * Fill all values by zeros.
+ * @since 13/01/2008 Manchester
+ */
+void Rectify::Renaming::fillInterval (size_t start,size_t end)
+{
+  for (unsigned i = start;i < end;i++) {
+    _array[i] = 0;
+  }
+} // fillInterval

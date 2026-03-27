@@ -1,0 +1,1 @@
+/Users/jpm/emsdk/upstream/emscripten/em++ -fexceptions -O3 -DNDEBUG -static @CMakeFiles/vampire.dir/objects1.rsp -o vampire.js

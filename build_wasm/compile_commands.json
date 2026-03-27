@@ -1,0 +1,2012 @@
+[
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/CASC/PortfolioMode.cpp.o -c /Users/jpm/vampire/CASC/PortfolioMode.cpp",
+  "file": "/Users/jpm/vampire/CASC/PortfolioMode.cpp",
+  "output": "CMakeFiles/common.dir/CASC/PortfolioMode.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/CASC/Schedules.cpp.o -c /Users/jpm/vampire/CASC/Schedules.cpp",
+  "file": "/Users/jpm/vampire/CASC/Schedules.cpp",
+  "output": "CMakeFiles/common.dir/CASC/Schedules.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/DP/ShortConflictMetaDP.cpp.o -c /Users/jpm/vampire/DP/ShortConflictMetaDP.cpp",
+  "file": "/Users/jpm/vampire/DP/ShortConflictMetaDP.cpp",
+  "output": "CMakeFiles/common.dir/DP/ShortConflictMetaDP.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/DP/SimpleCongruenceClosure.cpp.o -c /Users/jpm/vampire/DP/SimpleCongruenceClosure.cpp",
+  "file": "/Users/jpm/vampire/DP/SimpleCongruenceClosure.cpp",
+  "output": "CMakeFiles/common.dir/DP/SimpleCongruenceClosure.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Debug/Assertion.cpp.o -c /Users/jpm/vampire/Debug/Assertion.cpp",
+  "file": "/Users/jpm/vampire/Debug/Assertion.cpp",
+  "output": "CMakeFiles/common.dir/Debug/Assertion.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Debug/RuntimeStatistics.cpp.o -c /Users/jpm/vampire/Debug/RuntimeStatistics.cpp",
+  "file": "/Users/jpm/vampire/Debug/RuntimeStatistics.cpp",
+  "output": "CMakeFiles/common.dir/Debug/RuntimeStatistics.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Debug/TimeProfiling.cpp.o -c /Users/jpm/vampire/Debug/TimeProfiling.cpp",
+  "file": "/Users/jpm/vampire/Debug/TimeProfiling.cpp",
+  "output": "CMakeFiles/common.dir/Debug/TimeProfiling.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Debug/Tracer.cpp.o -c /Users/jpm/vampire/Debug/Tracer.cpp",
+  "file": "/Users/jpm/vampire/Debug/Tracer.cpp",
+  "output": "CMakeFiles/common.dir/Debug/Tracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/FMB/ClauseFlattening.cpp.o -c /Users/jpm/vampire/FMB/ClauseFlattening.cpp",
+  "file": "/Users/jpm/vampire/FMB/ClauseFlattening.cpp",
+  "output": "CMakeFiles/common.dir/FMB/ClauseFlattening.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/FMB/FiniteModelBuilder.cpp.o -c /Users/jpm/vampire/FMB/FiniteModelBuilder.cpp",
+  "file": "/Users/jpm/vampire/FMB/FiniteModelBuilder.cpp",
+  "output": "CMakeFiles/common.dir/FMB/FiniteModelBuilder.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/FMB/FiniteModelMultiSorted.cpp.o -c /Users/jpm/vampire/FMB/FiniteModelMultiSorted.cpp",
+  "file": "/Users/jpm/vampire/FMB/FiniteModelMultiSorted.cpp",
+  "output": "CMakeFiles/common.dir/FMB/FiniteModelMultiSorted.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/FMB/FunctionRelationshipInference.cpp.o -c /Users/jpm/vampire/FMB/FunctionRelationshipInference.cpp",
+  "file": "/Users/jpm/vampire/FMB/FunctionRelationshipInference.cpp",
+  "output": "CMakeFiles/common.dir/FMB/FunctionRelationshipInference.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/FMB/Monotonicity.cpp.o -c /Users/jpm/vampire/FMB/Monotonicity.cpp",
+  "file": "/Users/jpm/vampire/FMB/Monotonicity.cpp",
+  "output": "CMakeFiles/common.dir/FMB/Monotonicity.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/FMB/SortInference.cpp.o -c /Users/jpm/vampire/FMB/SortInference.cpp",
+  "file": "/Users/jpm/vampire/FMB/SortInference.cpp",
+  "output": "CMakeFiles/common.dir/FMB/SortInference.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/AcyclicityIndex.cpp.o -c /Users/jpm/vampire/Indexing/AcyclicityIndex.cpp",
+  "file": "/Users/jpm/vampire/Indexing/AcyclicityIndex.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/AcyclicityIndex.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/ClauseCodeTree.cpp.o -c /Users/jpm/vampire/Indexing/ClauseCodeTree.cpp",
+  "file": "/Users/jpm/vampire/Indexing/ClauseCodeTree.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/ClauseCodeTree.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/ClauseVariantIndex.cpp.o -c /Users/jpm/vampire/Indexing/ClauseVariantIndex.cpp",
+  "file": "/Users/jpm/vampire/Indexing/ClauseVariantIndex.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/ClauseVariantIndex.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/CodeTree.cpp.o -c /Users/jpm/vampire/Indexing/CodeTree.cpp",
+  "file": "/Users/jpm/vampire/Indexing/CodeTree.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/CodeTree.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/CodeTreeInterfaces.cpp.o -c /Users/jpm/vampire/Indexing/CodeTreeInterfaces.cpp",
+  "file": "/Users/jpm/vampire/Indexing/CodeTreeInterfaces.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/CodeTreeInterfaces.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/Index.cpp.o -c /Users/jpm/vampire/Indexing/Index.cpp",
+  "file": "/Users/jpm/vampire/Indexing/Index.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/Index.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/IndexManager.cpp.o -c /Users/jpm/vampire/Indexing/IndexManager.cpp",
+  "file": "/Users/jpm/vampire/Indexing/IndexManager.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/IndexManager.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/InductionFormulaIndex.cpp.o -c /Users/jpm/vampire/Indexing/InductionFormulaIndex.cpp",
+  "file": "/Users/jpm/vampire/Indexing/InductionFormulaIndex.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/InductionFormulaIndex.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/LiteralIndex.cpp.o -c /Users/jpm/vampire/Indexing/LiteralIndex.cpp",
+  "file": "/Users/jpm/vampire/Indexing/LiteralIndex.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/LiteralIndex.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/LiteralMiniIndex.cpp.o -c /Users/jpm/vampire/Indexing/LiteralMiniIndex.cpp",
+  "file": "/Users/jpm/vampire/Indexing/LiteralMiniIndex.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/LiteralMiniIndex.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/ResultSubstitution.cpp.o -c /Users/jpm/vampire/Indexing/ResultSubstitution.cpp",
+  "file": "/Users/jpm/vampire/Indexing/ResultSubstitution.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/ResultSubstitution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/TermCodeTree.cpp.o -c /Users/jpm/vampire/Indexing/TermCodeTree.cpp",
+  "file": "/Users/jpm/vampire/Indexing/TermCodeTree.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/TermCodeTree.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/TermIndex.cpp.o -c /Users/jpm/vampire/Indexing/TermIndex.cpp",
+  "file": "/Users/jpm/vampire/Indexing/TermIndex.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/TermIndex.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Indexing/TermSharing.cpp.o -c /Users/jpm/vampire/Indexing/TermSharing.cpp",
+  "file": "/Users/jpm/vampire/Indexing/TermSharing.cpp",
+  "output": "CMakeFiles/common.dir/Indexing/TermSharing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/BwdDemodulation.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/BwdDemodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/BwdDemodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/BwdDemodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/Demodulation.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/Demodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/Demodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/Demodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/EqFactoring.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/EqFactoring.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/EqFactoring.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/EqFactoring.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/FourierMotzkin.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/FourierMotzkin.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/FourierMotzkin.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/FourierMotzkin.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/FwdDemodulation.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/FwdDemodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/FwdDemodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/FwdDemodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/InequalityFactoring.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/InequalityFactoring.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/InequalityFactoring.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/InequalityFactoring.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/Normalization.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/Normalization.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/Normalization.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/Normalization.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/Superposition.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/Superposition.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/Superposition.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/Superposition.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/TermFactoring.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/TermFactoring.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/TermFactoring.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/TermFactoring.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/VIRAS.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/VIRAS.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/VIRAS.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/VIRAS.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ALASCA/VariableElimination.cpp.o -c /Users/jpm/vampire/Inferences/ALASCA/VariableElimination.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ALASCA/VariableElimination.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ALASCA/VariableElimination.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/AnswerLiteralProcessors.cpp.o -c /Users/jpm/vampire/Inferences/AnswerLiteralProcessors.cpp",
+  "file": "/Users/jpm/vampire/Inferences/AnswerLiteralProcessors.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/AnswerLiteralProcessors.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ArgCong.cpp.o -c /Users/jpm/vampire/Inferences/ArgCong.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ArgCong.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ArgCong.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ArithmeticSubtermGeneralization.cpp.o -c /Users/jpm/vampire/Inferences/ArithmeticSubtermGeneralization.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ArithmeticSubtermGeneralization.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ArithmeticSubtermGeneralization.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/BackwardDemodulation.cpp.o -c /Users/jpm/vampire/Inferences/BackwardDemodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/BackwardDemodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/BackwardDemodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/BackwardSubsumptionAndResolution.cpp.o -c /Users/jpm/vampire/Inferences/BackwardSubsumptionAndResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/BackwardSubsumptionAndResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/BackwardSubsumptionAndResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/BackwardSubsumptionDemodulation.cpp.o -c /Users/jpm/vampire/Inferences/BackwardSubsumptionDemodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/BackwardSubsumptionDemodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/BackwardSubsumptionDemodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/BinaryResolution.cpp.o -c /Users/jpm/vampire/Inferences/BinaryResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/BinaryResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/BinaryResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/BoolEqToDiseq.cpp.o -c /Users/jpm/vampire/Inferences/BoolEqToDiseq.cpp",
+  "file": "/Users/jpm/vampire/Inferences/BoolEqToDiseq.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/BoolEqToDiseq.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/BoolSimp.cpp.o -c /Users/jpm/vampire/Inferences/BoolSimp.cpp",
+  "file": "/Users/jpm/vampire/Inferences/BoolSimp.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/BoolSimp.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/CNFOnTheFly.cpp.o -c /Users/jpm/vampire/Inferences/CNFOnTheFly.cpp",
+  "file": "/Users/jpm/vampire/Inferences/CNFOnTheFly.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/CNFOnTheFly.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Cancellation.cpp.o -c /Users/jpm/vampire/Inferences/Cancellation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Cancellation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Cancellation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Cases.cpp.o -c /Users/jpm/vampire/Inferences/Cases.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Cases.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Cases.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/CasesSimp.cpp.o -c /Users/jpm/vampire/Inferences/CasesSimp.cpp",
+  "file": "/Users/jpm/vampire/Inferences/CasesSimp.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/CasesSimp.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Choice.cpp.o -c /Users/jpm/vampire/Inferences/Choice.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Choice.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Choice.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/CodeTreeForwardSubsumptionAndResolution.cpp.o -c /Users/jpm/vampire/Inferences/CodeTreeForwardSubsumptionAndResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/CodeTreeForwardSubsumptionAndResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/CodeTreeForwardSubsumptionAndResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Condensation.cpp.o -c /Users/jpm/vampire/Inferences/Condensation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Condensation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Condensation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/DefinitionIntroduction.cpp.o -c /Users/jpm/vampire/Inferences/DefinitionIntroduction.cpp",
+  "file": "/Users/jpm/vampire/Inferences/DefinitionIntroduction.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/DefinitionIntroduction.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/DemodulationHelper.cpp.o -c /Users/jpm/vampire/Inferences/DemodulationHelper.cpp",
+  "file": "/Users/jpm/vampire/Inferences/DemodulationHelper.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/DemodulationHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/DistinctEqualitySimplifier.cpp.o -c /Users/jpm/vampire/Inferences/DistinctEqualitySimplifier.cpp",
+  "file": "/Users/jpm/vampire/Inferences/DistinctEqualitySimplifier.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/DistinctEqualitySimplifier.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/EqualityFactoring.cpp.o -c /Users/jpm/vampire/Inferences/EqualityFactoring.cpp",
+  "file": "/Users/jpm/vampire/Inferences/EqualityFactoring.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/EqualityFactoring.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/EqualityResolution.cpp.o -c /Users/jpm/vampire/Inferences/EqualityResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/EqualityResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/EqualityResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/EquationalTautologyRemoval.cpp.o -c /Users/jpm/vampire/Inferences/EquationalTautologyRemoval.cpp",
+  "file": "/Users/jpm/vampire/Inferences/EquationalTautologyRemoval.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/EquationalTautologyRemoval.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ExtensionalityResolution.cpp.o -c /Users/jpm/vampire/Inferences/ExtensionalityResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ExtensionalityResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ExtensionalityResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/FOOLParamodulation.cpp.o -c /Users/jpm/vampire/Inferences/FOOLParamodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/FOOLParamodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/FOOLParamodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Factoring.cpp.o -c /Users/jpm/vampire/Inferences/Factoring.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Factoring.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Factoring.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/FastCondensation.cpp.o -c /Users/jpm/vampire/Inferences/FastCondensation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/FastCondensation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/FastCondensation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ForwardDemodulation.cpp.o -c /Users/jpm/vampire/Inferences/ForwardDemodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ForwardDemodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ForwardDemodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ForwardGroundJoinability.cpp.o -c /Users/jpm/vampire/Inferences/ForwardGroundJoinability.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ForwardGroundJoinability.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ForwardGroundJoinability.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ForwardLiteralRewriting.cpp.o -c /Users/jpm/vampire/Inferences/ForwardLiteralRewriting.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ForwardLiteralRewriting.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ForwardLiteralRewriting.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ForwardSubsumptionAndResolution.cpp.o -c /Users/jpm/vampire/Inferences/ForwardSubsumptionAndResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ForwardSubsumptionAndResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ForwardSubsumptionAndResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ForwardSubsumptionDemodulation.cpp.o -c /Users/jpm/vampire/Inferences/ForwardSubsumptionDemodulation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ForwardSubsumptionDemodulation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ForwardSubsumptionDemodulation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/FunctionDefinitionRewriting.cpp.o -c /Users/jpm/vampire/Inferences/FunctionDefinitionRewriting.cpp",
+  "file": "/Users/jpm/vampire/Inferences/FunctionDefinitionRewriting.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/FunctionDefinitionRewriting.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/GaussianVariableElimination.cpp.o -c /Users/jpm/vampire/Inferences/GaussianVariableElimination.cpp",
+  "file": "/Users/jpm/vampire/Inferences/GaussianVariableElimination.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/GaussianVariableElimination.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/GlobalSubsumption.cpp.o -c /Users/jpm/vampire/Inferences/GlobalSubsumption.cpp",
+  "file": "/Users/jpm/vampire/Inferences/GlobalSubsumption.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/GlobalSubsumption.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Induction.cpp.o -c /Users/jpm/vampire/Inferences/Induction.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Induction.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Induction.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/InductionHelper.cpp.o -c /Users/jpm/vampire/Inferences/InductionHelper.cpp",
+  "file": "/Users/jpm/vampire/Inferences/InductionHelper.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/InductionHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/InferenceEngine.cpp.o -c /Users/jpm/vampire/Inferences/InferenceEngine.cpp",
+  "file": "/Users/jpm/vampire/Inferences/InferenceEngine.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/InferenceEngine.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Injectivity.cpp.o -c /Users/jpm/vampire/Inferences/Injectivity.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Injectivity.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Injectivity.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/InnerRewriting.cpp.o -c /Users/jpm/vampire/Inferences/InnerRewriting.cpp",
+  "file": "/Users/jpm/vampire/Inferences/InnerRewriting.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/InnerRewriting.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Instantiation.cpp.o -c /Users/jpm/vampire/Inferences/Instantiation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Instantiation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Instantiation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/InterpretedEvaluation.cpp.o -c /Users/jpm/vampire/Inferences/InterpretedEvaluation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/InterpretedEvaluation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/InterpretedEvaluation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/NegativeExt.cpp.o -c /Users/jpm/vampire/Inferences/NegativeExt.cpp",
+  "file": "/Users/jpm/vampire/Inferences/NegativeExt.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/NegativeExt.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/PolynomialEvaluation.cpp.o -c /Users/jpm/vampire/Inferences/PolynomialEvaluation.cpp",
+  "file": "/Users/jpm/vampire/Inferences/PolynomialEvaluation.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/PolynomialEvaluation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/ProofExtra.cpp.o -c /Users/jpm/vampire/Inferences/ProofExtra.cpp",
+  "file": "/Users/jpm/vampire/Inferences/ProofExtra.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/ProofExtra.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/PushUnaryMinus.cpp.o -c /Users/jpm/vampire/Inferences/PushUnaryMinus.cpp",
+  "file": "/Users/jpm/vampire/Inferences/PushUnaryMinus.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/PushUnaryMinus.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/SubsumptionDemodulationHelper.cpp.o -c /Users/jpm/vampire/Inferences/SubsumptionDemodulationHelper.cpp",
+  "file": "/Users/jpm/vampire/Inferences/SubsumptionDemodulationHelper.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/SubsumptionDemodulationHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/Superposition.cpp.o -c /Users/jpm/vampire/Inferences/Superposition.cpp",
+  "file": "/Users/jpm/vampire/Inferences/Superposition.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/Superposition.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/TautologyDeletionISE.cpp.o -c /Users/jpm/vampire/Inferences/TautologyDeletionISE.cpp",
+  "file": "/Users/jpm/vampire/Inferences/TautologyDeletionISE.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/TautologyDeletionISE.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/TermAlgebraReasoning.cpp.o -c /Users/jpm/vampire/Inferences/TermAlgebraReasoning.cpp",
+  "file": "/Users/jpm/vampire/Inferences/TermAlgebraReasoning.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/TermAlgebraReasoning.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/TheoryInstAndSimp.cpp.o -c /Users/jpm/vampire/Inferences/TheoryInstAndSimp.cpp",
+  "file": "/Users/jpm/vampire/Inferences/TheoryInstAndSimp.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/TheoryInstAndSimp.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Inferences/URResolution.cpp.o -c /Users/jpm/vampire/Inferences/URResolution.cpp",
+  "file": "/Users/jpm/vampire/Inferences/URResolution.cpp",
+  "output": "CMakeFiles/common.dir/Inferences/URResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/ALASCA/SelectionPrimitves.cpp.o -c /Users/jpm/vampire/Kernel/ALASCA/SelectionPrimitves.cpp",
+  "file": "/Users/jpm/vampire/Kernel/ALASCA/SelectionPrimitves.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/ALASCA/SelectionPrimitves.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/ALASCA/Signature.cpp.o -c /Users/jpm/vampire/Kernel/ALASCA/Signature.cpp",
+  "file": "/Users/jpm/vampire/Kernel/ALASCA/Signature.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/ALASCA/Signature.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Clause.cpp.o -c /Users/jpm/vampire/Kernel/Clause.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Clause.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Clause.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/ClauseQueue.cpp.o -c /Users/jpm/vampire/Kernel/ClauseQueue.cpp",
+  "file": "/Users/jpm/vampire/Kernel/ClauseQueue.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/ClauseQueue.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/ELiteralSelector.cpp.o -c /Users/jpm/vampire/Kernel/ELiteralSelector.cpp",
+  "file": "/Users/jpm/vampire/Kernel/ELiteralSelector.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/ELiteralSelector.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/EqHelper.cpp.o -c /Users/jpm/vampire/Kernel/EqHelper.cpp",
+  "file": "/Users/jpm/vampire/Kernel/EqHelper.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/EqHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/FlatTerm.cpp.o -c /Users/jpm/vampire/Kernel/FlatTerm.cpp",
+  "file": "/Users/jpm/vampire/Kernel/FlatTerm.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/FlatTerm.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Formula.cpp.o -c /Users/jpm/vampire/Kernel/Formula.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Formula.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Formula.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/FormulaTransformer.cpp.o -c /Users/jpm/vampire/Kernel/FormulaTransformer.cpp",
+  "file": "/Users/jpm/vampire/Kernel/FormulaTransformer.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/FormulaTransformer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/FormulaUnit.cpp.o -c /Users/jpm/vampire/Kernel/FormulaUnit.cpp",
+  "file": "/Users/jpm/vampire/Kernel/FormulaUnit.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/FormulaUnit.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/FormulaVarIterator.cpp.o -c /Users/jpm/vampire/Kernel/FormulaVarIterator.cpp",
+  "file": "/Users/jpm/vampire/Kernel/FormulaVarIterator.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/FormulaVarIterator.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Grounder.cpp.o -c /Users/jpm/vampire/Kernel/Grounder.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Grounder.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Grounder.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/InductionTemplate.cpp.o -c /Users/jpm/vampire/Kernel/InductionTemplate.cpp",
+  "file": "/Users/jpm/vampire/Kernel/InductionTemplate.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/InductionTemplate.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Inference.cpp.o -c /Users/jpm/vampire/Kernel/Inference.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Inference.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Inference.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/InferenceStore.cpp.o -c /Users/jpm/vampire/Kernel/InferenceStore.cpp",
+  "file": "/Users/jpm/vampire/Kernel/InferenceStore.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/InferenceStore.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/InterpretedLiteralEvaluator.cpp.o -c /Users/jpm/vampire/Kernel/InterpretedLiteralEvaluator.cpp",
+  "file": "/Users/jpm/vampire/Kernel/InterpretedLiteralEvaluator.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/InterpretedLiteralEvaluator.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/KBO.cpp.o -c /Users/jpm/vampire/Kernel/KBO.cpp",
+  "file": "/Users/jpm/vampire/Kernel/KBO.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/KBO.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/LPO.cpp.o -c /Users/jpm/vampire/Kernel/LPO.cpp",
+  "file": "/Users/jpm/vampire/Kernel/LPO.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/LPO.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/LiteralSelector.cpp.o -c /Users/jpm/vampire/Kernel/LiteralSelector.cpp",
+  "file": "/Users/jpm/vampire/Kernel/LiteralSelector.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/LiteralSelector.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/LookaheadLiteralSelector.cpp.o -c /Users/jpm/vampire/Kernel/LookaheadLiteralSelector.cpp",
+  "file": "/Users/jpm/vampire/Kernel/LookaheadLiteralSelector.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/LookaheadLiteralSelector.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/MLMatcher.cpp.o -c /Users/jpm/vampire/Kernel/MLMatcher.cpp",
+  "file": "/Users/jpm/vampire/Kernel/MLMatcher.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/MLMatcher.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/MLMatcherSD.cpp.o -c /Users/jpm/vampire/Kernel/MLMatcherSD.cpp",
+  "file": "/Users/jpm/vampire/Kernel/MLMatcherSD.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/MLMatcherSD.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/MLVariant.cpp.o -c /Users/jpm/vampire/Kernel/MLVariant.cpp",
+  "file": "/Users/jpm/vampire/Kernel/MLVariant.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/MLVariant.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/MainLoop.cpp.o -c /Users/jpm/vampire/Kernel/MainLoop.cpp",
+  "file": "/Users/jpm/vampire/Kernel/MainLoop.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/MainLoop.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Matcher.cpp.o -c /Users/jpm/vampire/Kernel/Matcher.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Matcher.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Matcher.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/MaximalLiteralSelector.cpp.o -c /Users/jpm/vampire/Kernel/MaximalLiteralSelector.cpp",
+  "file": "/Users/jpm/vampire/Kernel/MaximalLiteralSelector.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/MaximalLiteralSelector.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/NumTraits.cpp.o -c /Users/jpm/vampire/Kernel/NumTraits.cpp",
+  "file": "/Users/jpm/vampire/Kernel/NumTraits.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/NumTraits.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/OperatorType.cpp.o -c /Users/jpm/vampire/Kernel/OperatorType.cpp",
+  "file": "/Users/jpm/vampire/Kernel/OperatorType.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/OperatorType.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Ordering.cpp.o -c /Users/jpm/vampire/Kernel/Ordering.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Ordering.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Ordering.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Ordering_Equality.cpp.o -c /Users/jpm/vampire/Kernel/Ordering_Equality.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Ordering_Equality.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Ordering_Equality.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/PartialOrdering.cpp.o -c /Users/jpm/vampire/Kernel/PartialOrdering.cpp",
+  "file": "/Users/jpm/vampire/Kernel/PartialOrdering.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/PartialOrdering.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Polynomial.cpp.o -c /Users/jpm/vampire/Kernel/Polynomial.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Polynomial.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Polynomial.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/PolynomialNormalizer.cpp.o -c /Users/jpm/vampire/Kernel/PolynomialNormalizer.cpp",
+  "file": "/Users/jpm/vampire/Kernel/PolynomialNormalizer.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/PolynomialNormalizer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Problem.cpp.o -c /Users/jpm/vampire/Kernel/Problem.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Problem.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Problem.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/QKbo.cpp.o -c /Users/jpm/vampire/Kernel/QKbo.cpp",
+  "file": "/Users/jpm/vampire/Kernel/QKbo.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/QKbo.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Rebalancing.cpp.o -c /Users/jpm/vampire/Kernel/Rebalancing.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Rebalancing.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Rebalancing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Rebalancing/Inverters.cpp.o -c /Users/jpm/vampire/Kernel/Rebalancing/Inverters.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Rebalancing/Inverters.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Rebalancing/Inverters.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Renaming.cpp.o -c /Users/jpm/vampire/Kernel/Renaming.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Renaming.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Renaming.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/RndLiteralSelector.cpp.o -c /Users/jpm/vampire/Kernel/RndLiteralSelector.cpp",
+  "file": "/Users/jpm/vampire/Kernel/RndLiteralSelector.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/RndLiteralSelector.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/RobSubstitution.cpp.o -c /Users/jpm/vampire/Kernel/RobSubstitution.cpp",
+  "file": "/Users/jpm/vampire/Kernel/RobSubstitution.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/RobSubstitution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Signature.cpp.o -c /Users/jpm/vampire/Kernel/Signature.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Signature.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Signature.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/SortHelper.cpp.o -c /Users/jpm/vampire/Kernel/SortHelper.cpp",
+  "file": "/Users/jpm/vampire/Kernel/SortHelper.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/SortHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/SpassLiteralSelector.cpp.o -c /Users/jpm/vampire/Kernel/SpassLiteralSelector.cpp",
+  "file": "/Users/jpm/vampire/Kernel/SpassLiteralSelector.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/SpassLiteralSelector.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/SubformulaIterator.cpp.o -c /Users/jpm/vampire/Kernel/SubformulaIterator.cpp",
+  "file": "/Users/jpm/vampire/Kernel/SubformulaIterator.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/SubformulaIterator.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Term.cpp.o -c /Users/jpm/vampire/Kernel/Term.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Term.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Term.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/TermIterators.cpp.o -c /Users/jpm/vampire/Kernel/TermIterators.cpp",
+  "file": "/Users/jpm/vampire/Kernel/TermIterators.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/TermIterators.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/TermOrderingDiagram.cpp.o -c /Users/jpm/vampire/Kernel/TermOrderingDiagram.cpp",
+  "file": "/Users/jpm/vampire/Kernel/TermOrderingDiagram.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/TermOrderingDiagram.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/TermOrderingDiagramKBO.cpp.o -c /Users/jpm/vampire/Kernel/TermOrderingDiagramKBO.cpp",
+  "file": "/Users/jpm/vampire/Kernel/TermOrderingDiagramKBO.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/TermOrderingDiagramKBO.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/TermOrderingDiagramLPO.cpp.o -c /Users/jpm/vampire/Kernel/TermOrderingDiagramLPO.cpp",
+  "file": "/Users/jpm/vampire/Kernel/TermOrderingDiagramLPO.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/TermOrderingDiagramLPO.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/TermPartialOrdering.cpp.o -c /Users/jpm/vampire/Kernel/TermPartialOrdering.cpp",
+  "file": "/Users/jpm/vampire/Kernel/TermPartialOrdering.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/TermPartialOrdering.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/TermTransformer.cpp.o -c /Users/jpm/vampire/Kernel/TermTransformer.cpp",
+  "file": "/Users/jpm/vampire/Kernel/TermTransformer.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/TermTransformer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Theory.cpp.o -c /Users/jpm/vampire/Kernel/Theory.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Theory.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Theory.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/UnificationWithAbstraction.cpp.o -c /Users/jpm/vampire/Kernel/UnificationWithAbstraction.cpp",
+  "file": "/Users/jpm/vampire/Kernel/UnificationWithAbstraction.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/UnificationWithAbstraction.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/Unit.cpp.o -c /Users/jpm/vampire/Kernel/Unit.cpp",
+  "file": "/Users/jpm/vampire/Kernel/Unit.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/Unit.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/HOL.cpp.o -c /Users/jpm/vampire/Kernel/HOL/HOL.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/HOL.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/HOL.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/Create.cpp.o -c /Users/jpm/vampire/Kernel/HOL/Create.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/Create.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/Create.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/Convert.cpp.o -c /Users/jpm/vampire/Kernel/HOL/Convert.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/Convert.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/Convert.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/Reduce.cpp.o -c /Users/jpm/vampire/Kernel/HOL/Reduce.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/Reduce.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/Reduce.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/BetaNormaliser.cpp.o -c /Users/jpm/vampire/Kernel/HOL/BetaNormaliser.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/BetaNormaliser.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/BetaNormaliser.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/RedexReducer.cpp.o -c /Users/jpm/vampire/Kernel/HOL/RedexReducer.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/RedexReducer.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/RedexReducer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/TermShifter.cpp.o -c /Users/jpm/vampire/Kernel/HOL/TermShifter.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/TermShifter.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/TermShifter.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/EtaNormaliser.cpp.o -c /Users/jpm/vampire/Kernel/HOL/EtaNormaliser.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/EtaNormaliser.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/EtaNormaliser.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/SubtermReplacer.cpp.o -c /Users/jpm/vampire/Kernel/HOL/SubtermReplacer.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/SubtermReplacer.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/SubtermReplacer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Kernel/HOL/ToPlaceholders.cpp.o -c /Users/jpm/vampire/Kernel/HOL/ToPlaceholders.cpp",
+  "file": "/Users/jpm/vampire/Kernel/HOL/ToPlaceholders.cpp",
+  "output": "CMakeFiles/common.dir/Kernel/HOL/ToPlaceholders.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Allocator.cpp.o -c /Users/jpm/vampire/Lib/Allocator.cpp",
+  "file": "/Users/jpm/vampire/Lib/Allocator.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Allocator.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Environment.cpp.o -c /Users/jpm/vampire/Lib/Environment.cpp",
+  "file": "/Users/jpm/vampire/Lib/Environment.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Environment.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Event.cpp.o -c /Users/jpm/vampire/Lib/Event.cpp",
+  "file": "/Users/jpm/vampire/Lib/Event.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Event.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Exception.cpp.o -c /Users/jpm/vampire/Lib/Exception.cpp",
+  "file": "/Users/jpm/vampire/Lib/Exception.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Exception.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Int.cpp.o -c /Users/jpm/vampire/Lib/Int.cpp",
+  "file": "/Users/jpm/vampire/Lib/Int.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Int.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/IntUnionFind.cpp.o -c /Users/jpm/vampire/Lib/IntUnionFind.cpp",
+  "file": "/Users/jpm/vampire/Lib/IntUnionFind.cpp",
+  "output": "CMakeFiles/common.dir/Lib/IntUnionFind.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/NameArray.cpp.o -c /Users/jpm/vampire/Lib/NameArray.cpp",
+  "file": "/Users/jpm/vampire/Lib/NameArray.cpp",
+  "output": "CMakeFiles/common.dir/Lib/NameArray.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Random.cpp.o -c /Users/jpm/vampire/Lib/Random.cpp",
+  "file": "/Users/jpm/vampire/Lib/Random.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Random.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/StringUtils.cpp.o -c /Users/jpm/vampire/Lib/StringUtils.cpp",
+  "file": "/Users/jpm/vampire/Lib/StringUtils.cpp",
+  "output": "CMakeFiles/common.dir/Lib/StringUtils.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Sys/Multiprocessing.cpp.o -c /Users/jpm/vampire/Lib/Sys/Multiprocessing.cpp",
+  "file": "/Users/jpm/vampire/Lib/Sys/Multiprocessing.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Sys/Multiprocessing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/System.cpp.o -c /Users/jpm/vampire/Lib/System.cpp",
+  "file": "/Users/jpm/vampire/Lib/System.cpp",
+  "output": "CMakeFiles/common.dir/Lib/System.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Lib/Timer.cpp.o -c /Users/jpm/vampire/Lib/Timer.cpp",
+  "file": "/Users/jpm/vampire/Lib/Timer.cpp",
+  "output": "CMakeFiles/common.dir/Lib/Timer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Minisat/core/Solver.cc.o -c /Users/jpm/vampire/Minisat/core/Solver.cc",
+  "file": "/Users/jpm/vampire/Minisat/core/Solver.cc",
+  "output": "CMakeFiles/common.dir/Minisat/core/Solver.cc.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Minisat/simp/SimpSolver.cc.o -c /Users/jpm/vampire/Minisat/simp/SimpSolver.cc",
+  "file": "/Users/jpm/vampire/Minisat/simp/SimpSolver.cc",
+  "output": "CMakeFiles/common.dir/Minisat/simp/SimpSolver.cc.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Minisat/utils/Options.cc.o -c /Users/jpm/vampire/Minisat/utils/Options.cc",
+  "file": "/Users/jpm/vampire/Minisat/utils/Options.cc",
+  "output": "CMakeFiles/common.dir/Minisat/utils/Options.cc.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Minisat/utils/System.cc.o -c /Users/jpm/vampire/Minisat/utils/System.cc",
+  "file": "/Users/jpm/vampire/Minisat/utils/System.cc",
+  "output": "CMakeFiles/common.dir/Minisat/utils/System.cc.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Parse/SMTLIB2.cpp.o -c /Users/jpm/vampire/Parse/SMTLIB2.cpp",
+  "file": "/Users/jpm/vampire/Parse/SMTLIB2.cpp",
+  "output": "CMakeFiles/common.dir/Parse/SMTLIB2.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Parse/TPTP.cpp.o -c /Users/jpm/vampire/Parse/TPTP.cpp",
+  "file": "/Users/jpm/vampire/Parse/TPTP.cpp",
+  "output": "CMakeFiles/common.dir/Parse/TPTP.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/CadicalInterfacing.cpp.o -c /Users/jpm/vampire/SAT/CadicalInterfacing.cpp",
+  "file": "/Users/jpm/vampire/SAT/CadicalInterfacing.cpp",
+  "output": "CMakeFiles/common.dir/SAT/CadicalInterfacing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/FallbackSolverWrapper.cpp.o -c /Users/jpm/vampire/SAT/FallbackSolverWrapper.cpp",
+  "file": "/Users/jpm/vampire/SAT/FallbackSolverWrapper.cpp",
+  "output": "CMakeFiles/common.dir/SAT/FallbackSolverWrapper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/MinimizingSolver.cpp.o -c /Users/jpm/vampire/SAT/MinimizingSolver.cpp",
+  "file": "/Users/jpm/vampire/SAT/MinimizingSolver.cpp",
+  "output": "CMakeFiles/common.dir/SAT/MinimizingSolver.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/MinisatInterfacing.cpp.o -c /Users/jpm/vampire/SAT/MinisatInterfacing.cpp",
+  "file": "/Users/jpm/vampire/SAT/MinisatInterfacing.cpp",
+  "output": "CMakeFiles/common.dir/SAT/MinisatInterfacing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/SAT2FO.cpp.o -c /Users/jpm/vampire/SAT/SAT2FO.cpp",
+  "file": "/Users/jpm/vampire/SAT/SAT2FO.cpp",
+  "output": "CMakeFiles/common.dir/SAT/SAT2FO.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/SATClause.cpp.o -c /Users/jpm/vampire/SAT/SATClause.cpp",
+  "file": "/Users/jpm/vampire/SAT/SATClause.cpp",
+  "output": "CMakeFiles/common.dir/SAT/SATClause.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/SATInference.cpp.o -c /Users/jpm/vampire/SAT/SATInference.cpp",
+  "file": "/Users/jpm/vampire/SAT/SATInference.cpp",
+  "output": "CMakeFiles/common.dir/SAT/SATInference.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/ProofProducingSATSolver.cpp.o -c /Users/jpm/vampire/SAT/ProofProducingSATSolver.cpp",
+  "file": "/Users/jpm/vampire/SAT/ProofProducingSATSolver.cpp",
+  "output": "CMakeFiles/common.dir/SAT/ProofProducingSATSolver.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/SATSolver.cpp.o -c /Users/jpm/vampire/SAT/SATSolver.cpp",
+  "file": "/Users/jpm/vampire/SAT/SATSolver.cpp",
+  "output": "CMakeFiles/common.dir/SAT/SATSolver.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/Z3Interfacing.cpp.o -c /Users/jpm/vampire/SAT/Z3Interfacing.cpp",
+  "file": "/Users/jpm/vampire/SAT/Z3Interfacing.cpp",
+  "output": "CMakeFiles/common.dir/SAT/Z3Interfacing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SAT/Z3MainLoop.cpp.o -c /Users/jpm/vampire/SAT/Z3MainLoop.cpp",
+  "file": "/Users/jpm/vampire/SAT/Z3MainLoop.cpp",
+  "output": "CMakeFiles/common.dir/SAT/Z3MainLoop.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SATSubsumption/SATSubsumptionAndResolution.cpp.o -c /Users/jpm/vampire/SATSubsumption/SATSubsumptionAndResolution.cpp",
+  "file": "/Users/jpm/vampire/SATSubsumption/SATSubsumptionAndResolution.cpp",
+  "output": "CMakeFiles/common.dir/SATSubsumption/SATSubsumptionAndResolution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SATSubsumption/subsat/constraint.cpp.o -c /Users/jpm/vampire/SATSubsumption/subsat/constraint.cpp",
+  "file": "/Users/jpm/vampire/SATSubsumption/subsat/constraint.cpp",
+  "output": "CMakeFiles/common.dir/SATSubsumption/subsat/constraint.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SATSubsumption/subsat/log.cpp.o -c /Users/jpm/vampire/SATSubsumption/subsat/log.cpp",
+  "file": "/Users/jpm/vampire/SATSubsumption/subsat/log.cpp",
+  "output": "CMakeFiles/common.dir/SATSubsumption/subsat/log.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SATSubsumption/subsat/subsat.cpp.o -c /Users/jpm/vampire/SATSubsumption/subsat/subsat.cpp",
+  "file": "/Users/jpm/vampire/SATSubsumption/subsat/subsat.cpp",
+  "output": "CMakeFiles/common.dir/SATSubsumption/subsat/subsat.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/SATSubsumption/subsat/types.cpp.o -c /Users/jpm/vampire/SATSubsumption/subsat/types.cpp",
+  "file": "/Users/jpm/vampire/SATSubsumption/subsat/types.cpp",
+  "output": "CMakeFiles/common.dir/SATSubsumption/subsat/types.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/AWPassiveClauseContainers.cpp.o -c /Users/jpm/vampire/Saturation/AWPassiveClauseContainers.cpp",
+  "file": "/Users/jpm/vampire/Saturation/AWPassiveClauseContainers.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/AWPassiveClauseContainers.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/ClauseContainer.cpp.o -c /Users/jpm/vampire/Saturation/ClauseContainer.cpp",
+  "file": "/Users/jpm/vampire/Saturation/ClauseContainer.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/ClauseContainer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/ConsequenceFinder.cpp.o -c /Users/jpm/vampire/Saturation/ConsequenceFinder.cpp",
+  "file": "/Users/jpm/vampire/Saturation/ConsequenceFinder.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/ConsequenceFinder.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/Discount.cpp.o -c /Users/jpm/vampire/Saturation/Discount.cpp",
+  "file": "/Users/jpm/vampire/Saturation/Discount.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/Discount.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/ExtensionalityClauseContainer.cpp.o -c /Users/jpm/vampire/Saturation/ExtensionalityClauseContainer.cpp",
+  "file": "/Users/jpm/vampire/Saturation/ExtensionalityClauseContainer.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/ExtensionalityClauseContainer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/LRS.cpp.o -c /Users/jpm/vampire/Saturation/LRS.cpp",
+  "file": "/Users/jpm/vampire/Saturation/LRS.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/LRS.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/LabelFinder.cpp.o -c /Users/jpm/vampire/Saturation/LabelFinder.cpp",
+  "file": "/Users/jpm/vampire/Saturation/LabelFinder.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/LabelFinder.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/ManCSPassiveClauseContainer.cpp.o -c /Users/jpm/vampire/Saturation/ManCSPassiveClauseContainer.cpp",
+  "file": "/Users/jpm/vampire/Saturation/ManCSPassiveClauseContainer.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/ManCSPassiveClauseContainer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/Otter.cpp.o -c /Users/jpm/vampire/Saturation/Otter.cpp",
+  "file": "/Users/jpm/vampire/Saturation/Otter.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/Otter.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/PredicateSplitPassiveClauseContainers.cpp.o -c /Users/jpm/vampire/Saturation/PredicateSplitPassiveClauseContainers.cpp",
+  "file": "/Users/jpm/vampire/Saturation/PredicateSplitPassiveClauseContainers.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/PredicateSplitPassiveClauseContainers.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/ProvingHelper.cpp.o -c /Users/jpm/vampire/Saturation/ProvingHelper.cpp",
+  "file": "/Users/jpm/vampire/Saturation/ProvingHelper.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/ProvingHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/SaturationAlgorithm.cpp.o -c /Users/jpm/vampire/Saturation/SaturationAlgorithm.cpp",
+  "file": "/Users/jpm/vampire/Saturation/SaturationAlgorithm.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/SaturationAlgorithm.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/Splitter.cpp.o -c /Users/jpm/vampire/Saturation/Splitter.cpp",
+  "file": "/Users/jpm/vampire/Saturation/Splitter.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/Splitter.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Saturation/SymElOutput.cpp.o -c /Users/jpm/vampire/Saturation/SymElOutput.cpp",
+  "file": "/Users/jpm/vampire/Saturation/SymElOutput.cpp",
+  "output": "CMakeFiles/common.dir/Saturation/SymElOutput.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/AnswerLiteralManager.cpp.o -c /Users/jpm/vampire/Shell/AnswerLiteralManager.cpp",
+  "file": "/Users/jpm/vampire/Shell/AnswerLiteralManager.cpp",
+  "output": "CMakeFiles/common.dir/Shell/AnswerLiteralManager.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/BlockedClauseElimination.cpp.o -c /Users/jpm/vampire/Shell/BlockedClauseElimination.cpp",
+  "file": "/Users/jpm/vampire/Shell/BlockedClauseElimination.cpp",
+  "output": "CMakeFiles/common.dir/Shell/BlockedClauseElimination.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/CNF.cpp.o -c /Users/jpm/vampire/Shell/CNF.cpp",
+  "file": "/Users/jpm/vampire/Shell/CNF.cpp",
+  "output": "CMakeFiles/common.dir/Shell/CNF.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/CommandLine.cpp.o -c /Users/jpm/vampire/Shell/CommandLine.cpp",
+  "file": "/Users/jpm/vampire/Shell/CommandLine.cpp",
+  "output": "CMakeFiles/common.dir/Shell/CommandLine.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/DistinctGroupExpansion.cpp.o -c /Users/jpm/vampire/Shell/DistinctGroupExpansion.cpp",
+  "file": "/Users/jpm/vampire/Shell/DistinctGroupExpansion.cpp",
+  "output": "CMakeFiles/common.dir/Shell/DistinctGroupExpansion.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/DistinctProcessor.cpp.o -c /Users/jpm/vampire/Shell/DistinctProcessor.cpp",
+  "file": "/Users/jpm/vampire/Shell/DistinctProcessor.cpp",
+  "output": "CMakeFiles/common.dir/Shell/DistinctProcessor.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/EqResWithDeletion.cpp.o -c /Users/jpm/vampire/Shell/EqResWithDeletion.cpp",
+  "file": "/Users/jpm/vampire/Shell/EqResWithDeletion.cpp",
+  "output": "CMakeFiles/common.dir/Shell/EqResWithDeletion.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/EqualityProxy.cpp.o -c /Users/jpm/vampire/Shell/EqualityProxy.cpp",
+  "file": "/Users/jpm/vampire/Shell/EqualityProxy.cpp",
+  "output": "CMakeFiles/common.dir/Shell/EqualityProxy.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/EqualityProxyMono.cpp.o -c /Users/jpm/vampire/Shell/EqualityProxyMono.cpp",
+  "file": "/Users/jpm/vampire/Shell/EqualityProxyMono.cpp",
+  "output": "CMakeFiles/common.dir/Shell/EqualityProxyMono.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/FOOLElimination.cpp.o -c /Users/jpm/vampire/Shell/FOOLElimination.cpp",
+  "file": "/Users/jpm/vampire/Shell/FOOLElimination.cpp",
+  "output": "CMakeFiles/common.dir/Shell/FOOLElimination.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Flattening.cpp.o -c /Users/jpm/vampire/Shell/Flattening.cpp",
+  "file": "/Users/jpm/vampire/Shell/Flattening.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Flattening.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/FunctionDefinition.cpp.o -c /Users/jpm/vampire/Shell/FunctionDefinition.cpp",
+  "file": "/Users/jpm/vampire/Shell/FunctionDefinition.cpp",
+  "output": "CMakeFiles/common.dir/Shell/FunctionDefinition.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/FunctionDefinitionHandler.cpp.o -c /Users/jpm/vampire/Shell/FunctionDefinitionHandler.cpp",
+  "file": "/Users/jpm/vampire/Shell/FunctionDefinitionHandler.cpp",
+  "output": "CMakeFiles/common.dir/Shell/FunctionDefinitionHandler.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/GeneralSplitting.cpp.o -c /Users/jpm/vampire/Shell/GeneralSplitting.cpp",
+  "file": "/Users/jpm/vampire/Shell/GeneralSplitting.cpp",
+  "output": "CMakeFiles/common.dir/Shell/GeneralSplitting.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/GoalGuessing.cpp.o -c /Users/jpm/vampire/Shell/GoalGuessing.cpp",
+  "file": "/Users/jpm/vampire/Shell/GoalGuessing.cpp",
+  "output": "CMakeFiles/common.dir/Shell/GoalGuessing.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/InequalitySplitting.cpp.o -c /Users/jpm/vampire/Shell/InequalitySplitting.cpp",
+  "file": "/Users/jpm/vampire/Shell/InequalitySplitting.cpp",
+  "output": "CMakeFiles/common.dir/Shell/InequalitySplitting.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/InterpolantMinimizer.cpp.o -c /Users/jpm/vampire/Shell/InterpolantMinimizer.cpp",
+  "file": "/Users/jpm/vampire/Shell/InterpolantMinimizer.cpp",
+  "output": "CMakeFiles/common.dir/Shell/InterpolantMinimizer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Interpolants.cpp.o -c /Users/jpm/vampire/Shell/Interpolants.cpp",
+  "file": "/Users/jpm/vampire/Shell/Interpolants.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Interpolants.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/InterpretedNormalizer.cpp.o -c /Users/jpm/vampire/Shell/InterpretedNormalizer.cpp",
+  "file": "/Users/jpm/vampire/Shell/InterpretedNormalizer.cpp",
+  "output": "CMakeFiles/common.dir/Shell/InterpretedNormalizer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Lexer.cpp.o -c /Users/jpm/vampire/Shell/Lexer.cpp",
+  "file": "/Users/jpm/vampire/Shell/Lexer.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Lexer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/LispLexer.cpp.o -c /Users/jpm/vampire/Shell/LispLexer.cpp",
+  "file": "/Users/jpm/vampire/Shell/LispLexer.cpp",
+  "output": "CMakeFiles/common.dir/Shell/LispLexer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/LispParser.cpp.o -c /Users/jpm/vampire/Shell/LispParser.cpp",
+  "file": "/Users/jpm/vampire/Shell/LispParser.cpp",
+  "output": "CMakeFiles/common.dir/Shell/LispParser.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/NNF.cpp.o -c /Users/jpm/vampire/Shell/NNF.cpp",
+  "file": "/Users/jpm/vampire/Shell/NNF.cpp",
+  "output": "CMakeFiles/common.dir/Shell/NNF.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Naming.cpp.o -c /Users/jpm/vampire/Shell/Naming.cpp",
+  "file": "/Users/jpm/vampire/Shell/Naming.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Naming.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/NewCNF.cpp.o -c /Users/jpm/vampire/Shell/NewCNF.cpp",
+  "file": "/Users/jpm/vampire/Shell/NewCNF.cpp",
+  "output": "CMakeFiles/common.dir/Shell/NewCNF.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Normalisation.cpp.o -c /Users/jpm/vampire/Shell/Normalisation.cpp",
+  "file": "/Users/jpm/vampire/Shell/Normalisation.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Normalisation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Options.cpp.o -c /Users/jpm/vampire/Shell/Options.cpp",
+  "file": "/Users/jpm/vampire/Shell/Options.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Options.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/PartialRedundancyHandler.cpp.o -c /Users/jpm/vampire/Shell/PartialRedundancyHandler.cpp",
+  "file": "/Users/jpm/vampire/Shell/PartialRedundancyHandler.cpp",
+  "output": "CMakeFiles/common.dir/Shell/PartialRedundancyHandler.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/PredicateDefinition.cpp.o -c /Users/jpm/vampire/Shell/PredicateDefinition.cpp",
+  "file": "/Users/jpm/vampire/Shell/PredicateDefinition.cpp",
+  "output": "CMakeFiles/common.dir/Shell/PredicateDefinition.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Preprocess.cpp.o -c /Users/jpm/vampire/Shell/Preprocess.cpp",
+  "file": "/Users/jpm/vampire/Shell/Preprocess.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Preprocess.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Property.cpp.o -c /Users/jpm/vampire/Shell/Property.cpp",
+  "file": "/Users/jpm/vampire/Shell/Property.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Property.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Rectify.cpp.o -c /Users/jpm/vampire/Shell/Rectify.cpp",
+  "file": "/Users/jpm/vampire/Shell/Rectify.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Rectify.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SMTCheck.cpp.o -c /Users/jpm/vampire/Shell/SMTCheck.cpp",
+  "file": "/Users/jpm/vampire/Shell/SMTCheck.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SMTCheck.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Shuffling.cpp.o -c /Users/jpm/vampire/Shell/Shuffling.cpp",
+  "file": "/Users/jpm/vampire/Shell/Shuffling.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Shuffling.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SimplifyFalseTrue.cpp.o -c /Users/jpm/vampire/Shell/SimplifyFalseTrue.cpp",
+  "file": "/Users/jpm/vampire/Shell/SimplifyFalseTrue.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SimplifyFalseTrue.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SineUtils.cpp.o -c /Users/jpm/vampire/Shell/SineUtils.cpp",
+  "file": "/Users/jpm/vampire/Shell/SineUtils.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SineUtils.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Skolem.cpp.o -c /Users/jpm/vampire/Shell/Skolem.cpp",
+  "file": "/Users/jpm/vampire/Shell/Skolem.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Skolem.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Statistics.cpp.o -c /Users/jpm/vampire/Shell/Statistics.cpp",
+  "file": "/Users/jpm/vampire/Shell/Statistics.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Statistics.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SubexpressionIterator.cpp.o -c /Users/jpm/vampire/Shell/SubexpressionIterator.cpp",
+  "file": "/Users/jpm/vampire/Shell/SubexpressionIterator.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SubexpressionIterator.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SymCounter.cpp.o -c /Users/jpm/vampire/Shell/SymCounter.cpp",
+  "file": "/Users/jpm/vampire/Shell/SymCounter.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SymCounter.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SymbolDefinitionInlining.cpp.o -c /Users/jpm/vampire/Shell/SymbolDefinitionInlining.cpp",
+  "file": "/Users/jpm/vampire/Shell/SymbolDefinitionInlining.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SymbolDefinitionInlining.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/SymbolOccurrenceReplacement.cpp.o -c /Users/jpm/vampire/Shell/SymbolOccurrenceReplacement.cpp",
+  "file": "/Users/jpm/vampire/Shell/SymbolOccurrenceReplacement.cpp",
+  "output": "CMakeFiles/common.dir/Shell/SymbolOccurrenceReplacement.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/TPTPPrinter.cpp.o -c /Users/jpm/vampire/Shell/TPTPPrinter.cpp",
+  "file": "/Users/jpm/vampire/Shell/TPTPPrinter.cpp",
+  "output": "CMakeFiles/common.dir/Shell/TPTPPrinter.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/TermAlgebra.cpp.o -c /Users/jpm/vampire/Shell/TermAlgebra.cpp",
+  "file": "/Users/jpm/vampire/Shell/TermAlgebra.cpp",
+  "output": "CMakeFiles/common.dir/Shell/TermAlgebra.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/TheoryAxioms.cpp.o -c /Users/jpm/vampire/Shell/TheoryAxioms.cpp",
+  "file": "/Users/jpm/vampire/Shell/TheoryAxioms.cpp",
+  "output": "CMakeFiles/common.dir/Shell/TheoryAxioms.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/TheoryFinder.cpp.o -c /Users/jpm/vampire/Shell/TheoryFinder.cpp",
+  "file": "/Users/jpm/vampire/Shell/TheoryFinder.cpp",
+  "output": "CMakeFiles/common.dir/Shell/TheoryFinder.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/TheoryFlattening.cpp.o -c /Users/jpm/vampire/Shell/TheoryFlattening.cpp",
+  "file": "/Users/jpm/vampire/Shell/TheoryFlattening.cpp",
+  "output": "CMakeFiles/common.dir/Shell/TheoryFlattening.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/Token.cpp.o -c /Users/jpm/vampire/Shell/Token.cpp",
+  "file": "/Users/jpm/vampire/Shell/Token.cpp",
+  "output": "CMakeFiles/common.dir/Shell/Token.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/TweeGoalTransformation.cpp.o -c /Users/jpm/vampire/Shell/TweeGoalTransformation.cpp",
+  "file": "/Users/jpm/vampire/Shell/TweeGoalTransformation.cpp",
+  "output": "CMakeFiles/common.dir/Shell/TweeGoalTransformation.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/Shell/UIHelper.cpp.o -c /Users/jpm/vampire/Shell/UIHelper.cpp",
+  "file": "/Users/jpm/vampire/Shell/UIHelper.cpp",
+  "output": "CMakeFiles/common.dir/Shell/UIHelper.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/contrib/craigtracer.cpp.o -c /Users/jpm/vampire/cadical/contrib/craigtracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/contrib/craigtracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/contrib/craigtracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/analyze.cpp.o -c /Users/jpm/vampire/cadical/src/analyze.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/analyze.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/analyze.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/arena.cpp.o -c /Users/jpm/vampire/cadical/src/arena.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/arena.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/arena.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/assume.cpp.o -c /Users/jpm/vampire/cadical/src/assume.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/assume.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/assume.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/averages.cpp.o -c /Users/jpm/vampire/cadical/src/averages.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/averages.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/averages.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/backtrack.cpp.o -c /Users/jpm/vampire/cadical/src/backtrack.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/backtrack.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/backtrack.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/backward.cpp.o -c /Users/jpm/vampire/cadical/src/backward.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/backward.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/backward.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/bins.cpp.o -c /Users/jpm/vampire/cadical/src/bins.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/bins.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/bins.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/block.cpp.o -c /Users/jpm/vampire/cadical/src/block.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/block.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/block.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/checker.cpp.o -c /Users/jpm/vampire/cadical/src/checker.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/checker.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/checker.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/clause.cpp.o -c /Users/jpm/vampire/cadical/src/clause.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/clause.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/clause.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/collect.cpp.o -c /Users/jpm/vampire/cadical/src/collect.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/collect.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/collect.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/compact.cpp.o -c /Users/jpm/vampire/cadical/src/compact.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/compact.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/compact.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/condition.cpp.o -c /Users/jpm/vampire/cadical/src/condition.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/condition.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/condition.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/config.cpp.o -c /Users/jpm/vampire/cadical/src/config.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/config.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/config.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/constrain.cpp.o -c /Users/jpm/vampire/cadical/src/constrain.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/constrain.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/constrain.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/contract.cpp.o -c /Users/jpm/vampire/cadical/src/contract.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/contract.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/contract.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/cover.cpp.o -c /Users/jpm/vampire/cadical/src/cover.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/cover.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/cover.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/decide.cpp.o -c /Users/jpm/vampire/cadical/src/decide.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/decide.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/decide.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/decompose.cpp.o -c /Users/jpm/vampire/cadical/src/decompose.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/decompose.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/decompose.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/deduplicate.cpp.o -c /Users/jpm/vampire/cadical/src/deduplicate.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/deduplicate.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/deduplicate.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/drattracer.cpp.o -c /Users/jpm/vampire/cadical/src/drattracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/drattracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/drattracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/elim.cpp.o -c /Users/jpm/vampire/cadical/src/elim.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/elim.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/elim.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/ema.cpp.o -c /Users/jpm/vampire/cadical/src/ema.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/ema.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/ema.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/extend.cpp.o -c /Users/jpm/vampire/cadical/src/extend.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/extend.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/extend.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/external.cpp.o -c /Users/jpm/vampire/cadical/src/external.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/external.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/external.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/external_propagate.cpp.o -c /Users/jpm/vampire/cadical/src/external_propagate.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/external_propagate.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/external_propagate.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/file.cpp.o -c /Users/jpm/vampire/cadical/src/file.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/file.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/file.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/flags.cpp.o -c /Users/jpm/vampire/cadical/src/flags.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/flags.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/flags.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/flip.cpp.o -c /Users/jpm/vampire/cadical/src/flip.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/flip.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/flip.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/format.cpp.o -c /Users/jpm/vampire/cadical/src/format.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/format.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/format.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/frattracer.cpp.o -c /Users/jpm/vampire/cadical/src/frattracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/frattracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/frattracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/gates.cpp.o -c /Users/jpm/vampire/cadical/src/gates.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/gates.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/gates.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/idruptracer.cpp.o -c /Users/jpm/vampire/cadical/src/idruptracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/idruptracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/idruptracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/instantiate.cpp.o -c /Users/jpm/vampire/cadical/src/instantiate.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/instantiate.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/instantiate.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/internal.cpp.o -c /Users/jpm/vampire/cadical/src/internal.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/internal.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/internal.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/lidruptracer.cpp.o -c /Users/jpm/vampire/cadical/src/lidruptracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/lidruptracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/lidruptracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/limit.cpp.o -c /Users/jpm/vampire/cadical/src/limit.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/limit.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/limit.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/logging.cpp.o -c /Users/jpm/vampire/cadical/src/logging.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/logging.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/logging.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/lookahead.cpp.o -c /Users/jpm/vampire/cadical/src/lookahead.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/lookahead.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/lookahead.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/lratbuilder.cpp.o -c /Users/jpm/vampire/cadical/src/lratbuilder.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/lratbuilder.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/lratbuilder.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/lratchecker.cpp.o -c /Users/jpm/vampire/cadical/src/lratchecker.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/lratchecker.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/lratchecker.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/lrattracer.cpp.o -c /Users/jpm/vampire/cadical/src/lrattracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/lrattracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/lrattracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/lucky.cpp.o -c /Users/jpm/vampire/cadical/src/lucky.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/lucky.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/lucky.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/message.cpp.o -c /Users/jpm/vampire/cadical/src/message.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/message.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/message.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/minimize.cpp.o -c /Users/jpm/vampire/cadical/src/minimize.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/minimize.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/minimize.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/occs.cpp.o -c /Users/jpm/vampire/cadical/src/occs.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/occs.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/occs.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/options.cpp.o -c /Users/jpm/vampire/cadical/src/options.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/options.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/options.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/parse.cpp.o -c /Users/jpm/vampire/cadical/src/parse.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/parse.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/parse.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/phases.cpp.o -c /Users/jpm/vampire/cadical/src/phases.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/phases.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/phases.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/probe.cpp.o -c /Users/jpm/vampire/cadical/src/probe.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/probe.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/probe.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/profile.cpp.o -c /Users/jpm/vampire/cadical/src/profile.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/profile.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/profile.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/proof.cpp.o -c /Users/jpm/vampire/cadical/src/proof.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/proof.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/proof.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/propagate.cpp.o -c /Users/jpm/vampire/cadical/src/propagate.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/propagate.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/propagate.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/queue.cpp.o -c /Users/jpm/vampire/cadical/src/queue.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/queue.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/queue.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/random.cpp.o -c /Users/jpm/vampire/cadical/src/random.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/random.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/random.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/reap.cpp.o -c /Users/jpm/vampire/cadical/src/reap.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/reap.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/reap.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/reduce.cpp.o -c /Users/jpm/vampire/cadical/src/reduce.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/reduce.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/reduce.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/rephase.cpp.o -c /Users/jpm/vampire/cadical/src/rephase.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/rephase.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/rephase.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/report.cpp.o -c /Users/jpm/vampire/cadical/src/report.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/report.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/report.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/resources.cpp.o -c /Users/jpm/vampire/cadical/src/resources.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/resources.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/resources.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/restart.cpp.o -c /Users/jpm/vampire/cadical/src/restart.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/restart.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/restart.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/restore.cpp.o -c /Users/jpm/vampire/cadical/src/restore.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/restore.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/restore.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/score.cpp.o -c /Users/jpm/vampire/cadical/src/score.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/score.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/score.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/shrink.cpp.o -c /Users/jpm/vampire/cadical/src/shrink.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/shrink.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/shrink.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/signal.cpp.o -c /Users/jpm/vampire/cadical/src/signal.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/signal.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/signal.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/solution.cpp.o -c /Users/jpm/vampire/cadical/src/solution.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/solution.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/solution.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/solver.cpp.o -c /Users/jpm/vampire/cadical/src/solver.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/solver.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/solver.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/stats.cpp.o -c /Users/jpm/vampire/cadical/src/stats.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/stats.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/stats.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/subsume.cpp.o -c /Users/jpm/vampire/cadical/src/subsume.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/subsume.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/subsume.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/terminal.cpp.o -c /Users/jpm/vampire/cadical/src/terminal.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/terminal.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/terminal.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/ternary.cpp.o -c /Users/jpm/vampire/cadical/src/ternary.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/ternary.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/ternary.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/transred.cpp.o -c /Users/jpm/vampire/cadical/src/transred.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/transred.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/transred.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/util.cpp.o -c /Users/jpm/vampire/cadical/src/util.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/util.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/util.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/var.cpp.o -c /Users/jpm/vampire/cadical/src/var.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/var.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/var.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/veripbtracer.cpp.o -c /Users/jpm/vampire/cadical/src/veripbtracer.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/veripbtracer.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/veripbtracer.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/version.cpp.o -c /Users/jpm/vampire/cadical/src/version.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/version.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/version.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/vivify.cpp.o -c /Users/jpm/vampire/cadical/src/vivify.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/vivify.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/vivify.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/walk.cpp.o -c /Users/jpm/vampire/cadical/src/walk.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/walk.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/walk.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/cadical/src/watch.cpp.o -c /Users/jpm/vampire/cadical/src/watch.cpp",
+  "file": "/Users/jpm/vampire/cadical/src/watch.cpp",
+  "output": "CMakeFiles/common.dir/cadical/src/watch.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/common.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/common.dir/version.cpp.o -c /Users/jpm/vampire/build_wasm/version.cpp",
+  "file": "/Users/jpm/vampire/build_wasm/version.cpp",
+  "output": "CMakeFiles/common.dir/version.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/vampire.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/vampire.dir/vampire.cpp.o -c /Users/jpm/vampire/vampire.cpp",
+  "file": "/Users/jpm/vampire/vampire.cpp",
+  "output": "CMakeFiles/vampire.dir/vampire.cpp.o"
+},
+{
+  "directory": "/Users/jpm/vampire/build_wasm",
+  "command": "/Users/jpm/emsdk/upstream/emscripten/em++ -DABSOLUTE_SOURCE_DIR=\\\"/Users/jpm/vampire\\\" -DCHECK_LEAKS=0 -DNBUILD=1 -DNCLOSEFROM=1 -DVDEBUG=0 -DVTIME_PROFILING=0 -DVZ3=0 @CMakeFiles/subsat.dir/includes_CXX.rsp -fexceptions -O3 -DNDEBUG -std=c++17 -Wall -fno-threadsafe-statics -fno-rtti -o CMakeFiles/subsat.dir/SATSubsumption/subsat/subsat_main.cpp.o -c /Users/jpm/vampire/SATSubsumption/subsat/subsat_main.cpp",
+  "file": "/Users/jpm/vampire/SATSubsumption/subsat/subsat_main.cpp",
+  "output": "CMakeFiles/subsat.dir/SATSubsumption/subsat/subsat_main.cpp.o"
+}
+]

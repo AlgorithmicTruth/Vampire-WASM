@@ -1,0 +1,365 @@
+/*
+ * This file is part of the source code of the software program
+ * Vampire. It is protected by applicable
+ * copyright laws.
+ *
+ * This source code is distributed under the licence found here
+ * https://vprover.github.io/license.html
+ * and in the source directory
+ */
+/**
+ * @file Induction.hpp
+ * Defines class Induction
+ *
+ */
+
+#ifndef __Induction__
+#define __Induction__
+
+#include <unordered_map>
+
+#include "Forwards.hpp"
+
+#include "Indexing/Index.hpp"
+#include "Indexing/InductionFormulaIndex.hpp"
+#include "Indexing/LiteralIndex.hpp"
+#include "Indexing/TermIndex.hpp"
+
+#include "Kernel/Formula.hpp"
+#include "Kernel/TermTransformer.hpp"
+
+#include "Lib/DHMap.hpp"
+
+#include "Saturation/SaturationAlgorithm.hpp"
+
+#include "Shell/FunctionDefinitionHandler.hpp"
+
+#include "InductionHelper.hpp"
+#include "InferenceEngine.hpp"
+
+namespace Inferences
+{
+
+using namespace Kernel;
+using namespace Saturation;
+using namespace Shell;
+using namespace Lib;
+
+/**
+ * This class is similar to @b NonVariableNonTypeIterator and is
+ * used to iterate over terms in active positions inside a literal.
+ * (active positions: https://doi.org/10.1007/978-3-319-66167-4_10)
+ * The active positions are given by a @b FunctionDefinitionHandler
+ * instance.
+ */
+class ActiveOccurrenceIterator
+  : public IteratorCore<Term*>
+{
+public:
+  ActiveOccurrenceIterator(Literal* lit, FunctionDefinitionHandler& fnDefHandler)
+  : _stack(8), _fnDefHandler(fnDefHandler)
+  {
+    _stack.push(lit);
+  }
+
+  bool hasNext() override { return _stack.isNonEmpty(); }
+  Term* next() override;
+private:
+  Stack<Term*> _stack;
+  FunctionDefinitionHandler& _fnDefHandler;
+};
+
+/**
+ * Hash used to make hashing over clauses deterministic.
+ */
+struct StlClauseHash {
+  std::size_t operator()(Clause* c) const { return std::hash<unsigned>()(c->number()); }
+};
+
+/**
+ * This function replaces the induction terms given in @b ts
+ * with static placeholders, so that already generated induction
+ * formulas can be easily detected. We allow multiple induction terms,
+ * so we have to index the placeholders as well with @b i.
+ */
+Term* getPlaceholderForTerm(const Stack<Term*>& ts, unsigned i);
+
+/**
+ * Term transformer class that replaces
+ * terms according to the mapping @b _m.
+ */
+class TermReplacement : public TermTransformer {
+public:
+  TermReplacement(const std::unordered_map<Term*, TermList>& m) : _m(m) {}
+  TermList transformSubterm(TermList trm) override;
+protected:
+  std::unordered_map<Term*,TermList> _m;
+};
+
+/**
+ * Similar to @b TermReplacement, except we replace free
+ * variables with fresh variables, and replace non-sort Skolems
+ * with variables if induction hypothesis strengthening is on.
+ */
+class InductionTermReplacement : public TermReplacement {
+public:
+  InductionTermReplacement(const std::unordered_map<Term*, TermList>& m, bool squashSkolems, unsigned& nextVar)
+    : TermReplacement(m), _squashSkolems(squashSkolems), _nextVar(nextVar), _renaming() {}
+  TermList transformSubterm(TermList trm) override;
+  
+  void resetRenaming(RobSubstitution* subst, unsigned bank);
+  VList* getRenamedFreeVars() const;
+  VSList* getVarsReplacingSkolems() const;
+
+  const bool _squashSkolems;
+  unsigned& _nextVar; // fresh variable counter supported by caller
+
+  DHMap<Term*, unsigned, SharedTermHash> _skolemToVarMap; // maps terms to their variable replacement
+  DHMap<unsigned,TermList> _varsReplacingSkolems;
+
+  DHMap<unsigned,unsigned> _renaming; // for renaming free variables
+  DHSet<unsigned> _renamedFreeVars;
+};
+
+/**
+ * Class representing an induction. This includes:
+ * - induction terms in @b _indTerms,
+ * - selected literals from clauses in @b _cls,
+ *   which are inducted upon.
+ */
+struct InductionContext {
+  InductionContext(const Stack<Term*>& indTerms, Literal* lit, Clause* cl)
+    : InductionContext(indTerms, { { cl, { lit } } }) {}
+  InductionContext(const Stack<Term*>& indTerms, Stack<std::pair<Clause*, LiteralStack>>&& cls)
+    : _indTerms(indTerms), _cls(cls)
+  {
+    ASS(iterTraits(_indTerms.iter()).all([](Term* t) { return t->ground(); }));
+    // sort the elements by the stacks of literals
+    for (const auto& e : _cls) { std::sort(e.second.begin(), e.second.end()); }
+    std::sort(_cls.begin(), _cls.end(), [](const auto& e1, const auto& e2) { return e1.second < e2.second; });
+  }
+
+  // These functions should be only called on objects where
+  // all induction term occurrences actually inducted upon are
+  // replaced with placeholders (e.g. with ContextReplacement).
+  Formula* getFormula(
+    const InductionUnit& unit, const Substitution& typeBinder, unsigned& nextVar,
+    VSList** varsReplacingSkolems = nullptr, RobSubstitution* subst = nullptr) const;
+  Formula* getFormulaWithFreeVar(TermList t, unsigned freeVar, unsigned freeVarSub, RobSubstitution* subst = nullptr) const;
+
+  template<typename Fun>
+  InductionContext transform(Fun fn) const;
+
+  // Return some free variable that occurs in the induction literals.
+  // If the literals are all ground, return 0 (and fail in debug mode).
+  unsigned getFreeVariable() const;
+
+  friend std::ostream& operator<<(std::ostream& out, const InductionContext& context) {
+    for (const auto& indt : context._indTerms) {
+      out << *indt << std::endl;
+    }
+    for (const auto& [cl, lits] : context._cls) {
+      out << "cl " << *cl << std::endl;
+      out << "lits ";
+      for (const auto& lit : lits) {
+        out << *lit << " ";
+      }
+      out << std::endl;
+    }
+    return out;
+  }
+
+  Stack<Term*> _indTerms;
+  // One could induct on all literals of a clause, but if a literal
+  // doesn't contain the induction term, it just introduces a couple
+  // of tautologies and duplicate literals (a hypothesis clause will
+  // be of the form ~L v L v C, other clauses L v L v C). So instead,
+  // we only store the literals we actually induct on. An alternative
+  // would be storing indices but then we need to pass around the
+  // clause as well.
+  Stack<std::pair<Clause*, LiteralStack>> _cls;
+private:
+  Formula* getFormulaWithSquashedSkolems(
+    const std::vector<TermList>& r, unsigned& nextVar, VList*& renamedFreeVars, VSList** varsReplacingSkolems, RobSubstitution* subst) const;
+  /**
+   * Creates a formula which corresponds to the disjunction of conjunction
+   * of opposites of selected literals for each clause in @b _cls, where we
+   * apply the term replacement @b tr on each literal.
+   */
+  Formula* getFormula(InductionTermReplacement& tr, RobSubstitution* subst) const;
+  std::unordered_map<Term*,TermList> getReplacementMap(const std::vector<TermList>& r, RobSubstitution* subst) const;
+};
+
+/**
+ * Gives @b InductionContext instances with
+ * induction terms replaced with placeholders.
+ */
+class ContextReplacement
+  : public TermReplacement, public IteratorCore<InductionContext> {
+public:
+  ContextReplacement(const InductionContext& context);
+
+  bool hasNext() override {
+    return !_used;
+  }
+  InductionContext next() override;
+
+protected:
+  InductionContext _context;
+  bool _used;
+};
+
+/**
+ * Same as @b ContextReplacement but replaces only active occurrences
+ * of induction terms, given by a @b FunctionDefinitionHandler instance.
+ */
+class ActiveOccurrenceContextReplacement
+  : public ContextReplacement {
+public:
+  ActiveOccurrenceContextReplacement(const InductionContext& context, const FunctionDefinitionHandler& fnDefHandler);
+  InductionContext next() override;
+  bool hasNonActive() const { return _hasNonActive; }
+
+protected:
+  TermList transformSubterm(TermList trm) override;
+
+private:
+  const FunctionDefinitionHandler& _fnDefHandler;
+  std::vector<unsigned> _iteration;
+  std::vector<unsigned> _matchCount;
+  bool _hasNonActive;
+};
+
+/**
+ * Same as @b ContextReplacement but iterates over all non-empty
+ * subsets of occurrences of the induction terms and replaces
+ * only the occurrences in these subsets with placeholder terms.
+ */
+class ContextSubsetReplacement
+  : public ContextReplacement {
+public:
+  ContextSubsetReplacement(const InductionContext& context, const unsigned maxSubsetSize);
+
+  bool hasNext() override;
+  InductionContext next() override;
+
+protected:
+  TermList transformSubterm(TermList trm) override;
+
+private:
+  bool shouldSkipIteration() const;
+  void stepIteration();
+  // _iteration serves as a map of occurrences to replace
+  std::vector<unsigned> _iteration;
+  std::vector<unsigned> _maxIterations;
+  // Counts how many occurrences were already encountered in one transformation
+  std::vector<unsigned> _matchCount;
+  const unsigned _maxOccurrences = 1 << 20;
+  const unsigned _maxSubsetSize;
+  bool _ready;
+  bool _done;
+};
+
+/**
+ * The induction inference.
+ */
+class Induction
+: public GeneratingInferenceEngine
+{
+  using TermIndex = Indexing::TermIndex<TermLiteralClause>;
+public:
+  Induction(SaturationAlgorithm& salg);
+  ClauseIterator generateClauses(Clause* premise) override;
+
+private:
+  const SaturationAlgorithm& _salg;
+  // The following pointers can be null if int induction is off.
+  std::shared_ptr<UnitIntegerComparisonLiteralIndex> _comparisonIndex;
+  std::shared_ptr<InductionTermIndex> _inductionTermIndex;
+  std::shared_ptr<StructInductionTermIndex> _structInductionTermIndex;
+  InductionFormulaIndex _formulaIndex;
+  InductionFormulaIndex _recFormulaIndex;
+};
+
+/**
+ * Helper class that generates all induction clauses for
+ * a premise and serves as an iterator for these clauses.
+ */
+class InductionClauseIterator
+{
+  using TermIndex               = Indexing::TermIndex<TermLiteralClause>;
+public:
+  // all the work happens in the constructor!
+  InductionClauseIterator(Clause* premise, InductionHelper helper, const SaturationAlgorithm& salg,
+    TermIndex* structInductionTermIndex, InductionFormulaIndex& formulaIndex)
+      : _helper(helper), _opt(salg.getOptions()), _structInductionTermIndex(structInductionTermIndex),
+      _formulaIndex(formulaIndex), _fnDefHandler(salg.getFunctionDefinitionHandler())
+  {
+    processClause(premise);
+  }
+
+  DECL_ELEMENT_TYPE(Clause*);
+
+  inline bool hasNext() { return _clauses.isNonEmpty(); }
+  inline OWN_ELEMENT_TYPE next() { 
+    return _clauses.pop();
+  }
+
+private:
+  void processClause(Clause* premise);
+  void processLiteral(Clause* premise, Literal* lit);
+  void processIntegerComparison(Clause* premise, Literal* lit);
+
+  ClauseStack produceClauses(Formula* hypothesis, InferenceRule rule, const InductionContext& context, Substitution& cnfSubst);
+  void resolveClauses(const InductionContext& context, InductionFormulaIndex::Entry* e, const TermLiteralClause* bound1, const TermLiteralClause* bound2);
+  void resolveClauses(const InductionInstance& indInst, const InductionContext& context);
+
+  void performFinIntInduction(const InductionContext& context, const TermLiteralClause& lb, const TermLiteralClause& ub);
+  void performInfIntInduction(const InductionContext& context, bool increasing, const TermLiteralClause& bound);
+
+  struct DefaultBound { TypedTermList term; };
+  using Bound = Coproduct<TermLiteralClause, DefaultBound>;
+
+  std::unique_ptr<InductionTemplate> getIntegerInductionTemplate(bool increasing, Bound bound1, const TermLiteralClause* optionalBound2);
+  void performIntInduction(const InductionContext& context, InductionFormulaIndex::Entry* e, bool increasing, Bound bound1, const TermLiteralClause* optionalBound2);
+
+  void performIntInduction(const InductionContext& context, InductionFormulaIndex::Entry* e, bool increasing, TermLiteralClause const& bound1, const TermLiteralClause* optionalBound2)
+  { performIntInduction(context, e, increasing, Bound::variant<0>(bound1), optionalBound2); }
+
+  void performInduction(const InductionContext& context, const InductionTemplate* templ, InductionFormulaIndex::Entry* e);
+  void performStructInductionFreeVar(const InductionContext& context, InductionFormulaIndex::Entry* e);
+
+  /**
+   * Whether an induction formula is applicable (or has already been generated)
+   * is determined by its conclusion part, which is resolved against the literals
+   * and bounds we induct on. From this point of view, an integer induction formula
+   * can have one lower bound and/or one upper bound. This function wraps this
+   * information by adding the bounds and querying the index with the resulting context.
+   *
+   * TODO: default bounds are now stored as special cases with no bounds (this makes
+   * the resolve part easier) but this means some default bound induction formulas
+   * are duplicates of normal formulas.
+   */
+  bool notDoneInt(InductionContext context, Literal* bound1, Literal* bound2, InductionFormulaIndex::Entry*& e);
+
+  /**
+   * If the integer induction literal is a comparison, and the induction term is
+   * one of its arguments, the other argument should not be allowed as a bound
+   * (such inductions are useless and can lead to redundant literals in the
+   * induction axiom).
+   */
+  bool isValidBound(const InductionContext& context, const Bound& bound);
+  bool isValidBound(const InductionContext& context, const TermLiteralClause& bound)
+  { return isValidBound(context, Bound(bound)); }
+
+  Stack<Clause*> _clauses;
+  InductionHelper _helper;
+  const Options& _opt;
+  TermIndex* _structInductionTermIndex;
+  InductionFormulaIndex& _formulaIndex;
+  FunctionDefinitionHandler& _fnDefHandler;
+};
+
+};
+
+#endif /*__Induction__*/

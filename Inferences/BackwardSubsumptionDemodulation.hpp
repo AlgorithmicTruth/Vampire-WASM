@@ -1,0 +1,72 @@
+/*
+ * This file is part of the source code of the software program
+ * Vampire. It is protected by applicable
+ * copyright laws.
+ *
+ * This source code is distributed under the licence found here
+ * https://vprover.github.io/license.html
+ * and in the source directory
+ */
+
+
+#ifndef __BackwardSubsumptionDemodulation__
+#define __BackwardSubsumptionDemodulation__
+
+#include "InferenceEngine.hpp"
+#include "Indexing/LiteralIndex.hpp"
+#include "Kernel/MLMatcherSD.hpp"
+
+namespace Inferences {
+
+using namespace Indexing;
+using namespace Kernel;
+
+
+/**
+ * Subsumption Demodulation is a simplification rule that generalizes
+ * demodulation by combining subsumption and demodulation.
+ * The rule is defined as follows:
+ *
+ *      l = r \/ C        L[lΘ] \/ CΘ \/ D
+ *     ------------------------------------
+ *              L[rΘ] \/ CΘ \/ D
+ *
+ * where
+ * - C, D are clauses and Θ is a substitution,
+ * - lΘ > rΘ, and
+ * - L[lΘ] \/ D > (l = r)Θ.
+ *
+ * For a detailed description, see the paper
+ *
+ *    Bernhard Gleiss, Laura Kovács, Jakob Rath:
+ *    Subsumption Demodulation in First-Order Theorem Proving.
+ *    Accepted for IJCAR 2020.
+ *
+ * This class implements the backward direction.
+ */
+class BackwardSubsumptionDemodulation
+  : public BackwardSimplificationEngine
+{
+  public:
+    BackwardSubsumptionDemodulation(SaturationAlgorithm& salg);
+
+    void perform(Clause* premise, BwSimplificationRecordIterator& simplifications) override;
+
+  private:
+    const Ordering& _ord;
+    std::shared_ptr<BackwardSubsumptionIndex> _index;
+
+    const bool _preorderedOnly;
+    const bool _allowIncompleteness;
+    const bool _enableOrderingOptimizations;
+    const Options::LiteralComparisonMode _literalComparisonMode;
+    const unsigned _backwardSubsumptionDemodulationMaxMatches;
+
+    void performWithQueryLit(Clause* premise, Literal* candidateQueryLit, std::vector<BwSimplificationRecord>& simplifications);
+    bool simplifyCandidate(Clause* sideCl, Clause* mainCl, std::vector<BwSimplificationRecord>& simplifications);
+    bool rewriteCandidate(Clause* sideCl, Clause* mainCl, MLMatcherSD const& matcher, Clause*& replacement);
+};
+
+};
+
+#endif /* __BackwardSubsumptionDemodulation__ */

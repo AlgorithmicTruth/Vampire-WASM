@@ -1,0 +1,68 @@
+/*
+ * This file is part of the source code of the software program
+ * Vampire. It is protected by applicable
+ * copyright laws.
+ *
+ * This source code is distributed under the licence found here
+ * https://vprover.github.io/license.html
+ * and in the source directory
+ */
+/**
+ * @file BinaryResolution.hpp
+ * Defines class BinaryResolution
+ *
+ */
+
+#ifndef __BinaryResolution__
+#define __BinaryResolution__
+
+#include "Forwards.hpp"
+
+#include "Kernel/UnificationWithAbstraction.hpp"
+
+#include "InferenceEngine.hpp"
+#include "ProofExtra.hpp"
+
+namespace Indexing {
+  class BinaryResolutionIndex;
+}
+
+namespace Inferences
+{
+
+using namespace Kernel;
+using namespace Indexing;
+using namespace Saturation;
+
+class BinaryResolution
+: public GeneratingInferenceEngine
+{
+public:
+  BinaryResolution(SaturationAlgorithm& salg);
+
+  static Clause* generateClause(Clause* queryCl, Literal* queryLit, 
+                                Clause* resultCl, Literal* resultLit, 
+                                AbstractingUnifier& uwa, const Options& opts, SaturationAlgorithm& salg);
+
+  template<class ComputeConstraints>
+  static Clause* generateClause(Clause* queryCl, Literal* queryLit, 
+                                Clause* resultCl, Literal* resultLit, 
+                                ResultSubstitutionSP subs, ComputeConstraints constraints, const Options& opts,
+                                bool afterCheck = false, const PassiveClauseContainer* passive=0, Ordering* ord=0, LiteralSelector* ls = 0, PartialRedundancyHandler const* parRedHandler = 0);
+
+  ClauseIterator generateClauses(Clause* premise) override;
+
+private:
+  Clause* generateClause(
+    Clause* queryCl, Literal* queryLit, Clause* resultCl, Literal* resultLit,
+    ResultSubstitutionSP subs, AbstractingUnifier* absUnif);
+
+  SaturationAlgorithm& _salg;
+  std::shared_ptr<BinaryResolutionIndex> _index;
+};
+
+using BinaryResolutionExtra = TwoLiteralInferenceExtra;
+
+};
+
+#endif /*__BinaryResolution__*/
