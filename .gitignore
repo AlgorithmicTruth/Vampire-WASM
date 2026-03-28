@@ -4,5 +4,4 @@ webapps/
 # Build artifacts
 *.o
 *.d
-Debug/
 z3/
